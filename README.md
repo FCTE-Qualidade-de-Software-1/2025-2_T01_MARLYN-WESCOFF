@@ -39,13 +39,13 @@ https://fcte-qualidade-de-software-1.github.io/2025-2_T01_MARLYN-WESCOFF
       <sub>221000000</sub>
     </td>
     <td align="center">
-      <a href="https://github.com/usuario3">
-        <img style="border-radius: 50%;" src="https://github.com/usuario3.png" width="100px;" alt=""/>
+      <a href="https://github.com/YanWerlley">
+        <img style="border-radius: 50%;" src="https://github.com/YanWerlley.png" width="100px;" alt=""/>
       </a>
       <br />
-      <sub><b>Nome do Usuário 3</b></sub>
+      <sub><b>Yan Werlley</b></sub>
       <br />
-      <sub>221000000</sub>
+      <sub>211030649</sub>
     </td>
     <td align="center">
       <a href="https://github.com/OscarDeBrito">
@@ -89,6 +89,7 @@ https://fcte-qualidade-de-software-1.github.io/2025-2_T01_MARLYN-WESCOFF
 | 1.2    | 28/09/2025 | Mudanças no README        | [Fernanda Vaz](https://github.com/Fernandavazgit1) |
 | 1.3    | 28/09/2025 | Mudanças no README        | [João Pedro Costa](https://github.com/johnaopedro) |
 | 1.4    | 28/09/2025 | Atualização do readme        | [Oscar de Brito](https://github.com/OscarDeBrito) |
+| 1.5    | 28/09/2025 | Atualização do readme        | [Yan Werlley](https://github.com/YanWerlley) |
 
 <hr/>
 
