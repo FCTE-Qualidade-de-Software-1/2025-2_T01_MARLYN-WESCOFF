@@ -13,8 +13,16 @@ https://proepidesenvolvimento.github.io/guardioes-api/
 <div align="center">
   <table>
     <tr>
-      <td align="center"><a href="https://github.com/marcellaanderle"><img style="border-radius: 50%;" src="https://github.com/marcellaanderle.png" width="100px;" alt=""/><br /><sub><b>Marcella Anderle</b><sub><b>221035040</b>
-    </td>
+      <td align="center">
+        <a href="https://github.com/marcellaanderle">
+          <img style="border-radius: 50%;" src="https://github.com/marcellaanderle.png" width="100px;" alt=""/>
+        </a>
+        <br />
+        <sub><b>Marcella Anderle</b></sub>
+        <br />
+        <sub>221035040</sub>
+      </td>
+    </tr>
   </table>
 </div>
 
