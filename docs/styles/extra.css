@@ -1,0 +1,42 @@
+/* Fundo azul-claro na barra lateral (só no tema claro) */
+[data-md-color-scheme="default"] .md-sidebar--primary {
+  background: #e9f3fe;       /* azul bem claro */
+}
+
+/* Links do menu: hover + foco */
+.md-nav__item .md-nav__link {
+  border-radius: 6px;
+  padding: 4px 8px;
+  transition: background .2s ease, color .2s ease;
+}
+
+.md-nav__item .md-nav__link:hover,
+.md-nav__item .md-nav__link:focus {
+  background: #d7e9fd;       /* hover */
+  color: #0d47a1;
+  font-weight: 500;
+}
+
+/* Item ativo (página atual) mais evidente */
+.md-nav__item .md-nav__link--active,
+.md-nav__item .md-nav__link--active:hover {
+  background: #cde3fc;
+  color: #0d47a1;
+  font-weight: 600;
+}
+
+/* Linhas de guia dos subitens mais sutis */
+.md-nav--primary .md-nav__list {
+  border-left: 1px solid rgba(13, 71, 161, 0.12);
+}
+
+/* Títulos das seções na nav (ex.: “Fase 01”) */
+.md-nav__title {
+  font-weight: 600;
+}
+
+/* Caixas de destaque (admonitions) mais limpas */
+.md-typeset .admonition {
+  border-radius: 8px;
+  border-left: 4px solid #1e88e5;
+}

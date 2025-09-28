@@ -1,6 +1,6 @@
 site_name: Marlyn Wescoff
 repo_name: "Marlyn Wescoff"
-repo_url: https://github.com/FCTE-Qualidade-de-Software-1/2025-2_T01_MARLYN-WESCOFF.git 
+repo_url: https://github.com/FCTE-Qualidade-de-Software-1/2025-2_T01_MARLYN-WESCOFF.git
 
 theme:
   name: material
@@ -8,21 +8,19 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
-    - navigation.expand
     - navigation.top
     - search.highlight
     - search.share
-    - toc.integrate
     - content.code.copy
   palette:
     - scheme: default
-      primary: indigo
+      primary: light blue     
       accent: indigo
       toggle:
         icon: material/brightness-7
         name: Mudar para modo escuro
     - scheme: slate
-      primary: deep blue 
+      primary: light blue     
       accent: lime
       toggle:
         icon: material/brightness-4
@@ -32,10 +30,12 @@ theme:
     code: Roboto Mono
   logo: https://raw.githubusercontent.com/FCTE-Qualidade-de-Software-1/2025-2_T01_MARLYN-WESCOFF/refs/heads/main/docs/images/MarlynWescoff.png
   favicon: https://raw.githubusercontent.com/FCTE-Qualidade-de-Software-1/2025-2_T01_MARLYN-WESCOFF/refs/heads/main/docs/images/favicon.ico
-  # Configuração de ícones
   icon:
     repo: fontawesome/brands/github
     logo: material/code-braces
+
+extra_css:
+  - styles/extra.css   
 
 extra:
   version:
@@ -44,14 +44,13 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/FCTE-Qualidade-de-Software-1/2025-2_T01_MARLYN-WESCOFF.git
       name: GitHub Repository
-  
-copyright: "Copyright &copy; 2025 - Equipe Marlyn Wescoff"
+
+copyright: "Copyright © 2025 - Equipe Marlyn Wescoff"
 
 plugins:
   - search:
       lang: pt
 
-# Extensões do Markdown
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -74,8 +73,3 @@ nav:
       - 1.5 Seleção e priorização de características: Fase01/criterio5.md
       - 1.6 Escopo, profundidade e objetos de avaliação: Fase01/criterio6.md
       - 1.7 ODS, metas e indicadores relacionados: Fase01/criterio7.md
-
-
-
-
-
