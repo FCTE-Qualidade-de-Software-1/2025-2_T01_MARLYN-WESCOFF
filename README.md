@@ -6,7 +6,7 @@ Este projeto tem como objetivo aplicar os conceitos e práticas de Qualidade de 
 
 
 ## :paperclip: Link da página de documentação
-https://proepidesenvolvimento.github.io/guardioes-api/
+https://fcte-qualidade-de-software-1.github.io/2025-2_T01_MARLYN-WESCOFF
 
 # Contribuidores do Projeto:
 
