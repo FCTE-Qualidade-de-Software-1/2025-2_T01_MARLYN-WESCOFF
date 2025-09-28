@@ -12,3 +12,9 @@ A avaliação destina-se a diferentes públicos:
 
 Optamos pelo método **GQM (Goal-Question-Metric)**, com foco em **Adequação Funcional** e **Segurança**, características essenciais em vigilância epidemiológica e proteção de dados sensíveis.  
 Essa etapa estabelece as bases conceituais e práticas que nortearão as fases futuras, em conformidade com a norma **ISO/IEC 25000 (SQuaRE)**.
+
+## Histórico de Versões
+
+| Versão | Data       | Descrição                         | Autor                                | Revisor |
+|:------:|:----------|:----------------------------------|:-------------------------------------|:-------:|
+| 1.0    | 26/09/2025 | Criação do Documento inicial      | [nome](https://github.com/github)    |   —     |

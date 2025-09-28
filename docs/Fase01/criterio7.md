@@ -21,3 +21,10 @@
 
 ### ODS 17 – Parcerias e Meios de Implementação
 - Viabiliza colaboração entre governo, universidades, empresas e sociedade civil no uso dos dados coletados.
+
+
+## Histórico de Versões
+
+| Versão | Data       | Descrição                         | Autor                                | Revisor |
+|:------:|:----------|:----------------------------------|:-------------------------------------|:-------:|
+| 1.0    | 26/09/2025 | Criação do Documento inicial      | [nome](https://github.com/github)    |   —     |

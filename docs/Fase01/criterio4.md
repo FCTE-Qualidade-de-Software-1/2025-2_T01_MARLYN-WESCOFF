@@ -17,3 +17,10 @@ De acordo com o modelo [ISO/IEC 25010:2023](https://cdn.standards.iteh.ai/sample
     - Não-repúdio: garantia de que ações ou transações não podem ser negadas.  
     - Responsividade à Autenticação: autenticação adequada para acesso seguro.  
     - Proteção contra falhas: resiliência contra ataques e falhas de segurança.
+
+
+## Histórico de Versões
+
+| Versão | Data       | Descrição                         | Autor                                | Revisor |
+|:------:|:----------|:----------------------------------|:-------------------------------------|:-------:|
+| 1.0    | 26/09/2025 | Criação do Documento inicial      | [nome](https://github.com/github)    |   —     |

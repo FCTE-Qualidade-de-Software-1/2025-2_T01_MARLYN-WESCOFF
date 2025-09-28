@@ -16,3 +16,10 @@
 O Guardiões da Saúde é classificado como um Sistema de Informação em Saúde (SIS) com foco em Vigilância Epidemiológica Participativa e Ciência Cidadã.
 
 Arquiteturalmente, é uma aplicação **mobile cliente-servidor**, composta por um frontend e um backend.
+
+
+## Histórico de Versões
+
+| Versão | Data       | Descrição                         | Autor                                | Revisor |
+|:------:|:----------|:----------------------------------|:-------------------------------------|:-------:|
+| 1.0    | 26/09/2025 | Criação do Documento inicial      | [nome](https://github.com/github)    |   —     |
