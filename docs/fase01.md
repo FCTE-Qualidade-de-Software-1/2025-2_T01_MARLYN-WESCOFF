@@ -4,8 +4,7 @@
 
 Nesta fase inicial, buscamos definir com clareza os fundamentos da avaliação de qualidade do software **Guardiões da Saúde** (App + API). O principal objetivo foi compreender o propósito da avaliação, identificar os produtos a serem avaliados e selecionar o modelo de qualidade mais adequado.
 
-Optamos pelo modelo (AQUI É O METODO NÃO A ISO), com foco em **Adequação Funcional** e **Segurança** — características críticas para o contexto de vigilância epidemiológica e proteção de dados sensíveis. Essa etapa estabelece as bases conceituais e práticas que nortearão as fases futuras, em conformidade com a norma ISO/IEC 25000 (SQuaRE).
-
+Optamos pelo método **GQM (Goal-Question-Metric)**, com foco em definir metas claras para avaliar a **Adequação Funcional** e a **Segurança** — características críticas para o contexto de vigilância epidemiológica e proteção de dados sensíveis. Essa etapa estabelece as bases conceituais e práticas que nortearão as fases futuras, em conformidade com a norma ISO/IEC 25000 (SQuaRE).
 
 ## Sobre o Projeto
 
@@ -40,6 +39,10 @@ De acordo com o modelo [ISO/IEC 25010:2023](https://cdn.standards.iteh.ai/sample
 
 ## Perfis de Usuário
 
+- Cidadão: Pessoa que instala o aplicativo para reportar seus sintomas e condições de saúde. É o principal fornecedor de dados. Necessita de uma interface simples, rápida e que garanta a privacidade de suas informações.
+- Gestor de Saúde Pública: Profissional de secretarias de saúde ou ministério que utiliza os dados agregados e anonimizados para monitorar a situação epidemiológica, identificar surtos e planejar ações de saúde.
+- Pesquisador/Epidemiologista: Acadêmico ou cientista que utiliza a base de dados (sempre anonimizada) para realizar estudos científicos, validar modelos e gerar conhecimento sobre a dinâmica de doenças.
+- Administrador do Sistema: Desenvolvedor ou mantenedor do projeto que precisa garantir que a plataforma esteja funcionando corretamente, gerenciar o acesso e monitorar a saúde da infraestrutura.
 
 ## Critérios de Avaliação
 
@@ -78,14 +81,17 @@ De acordo com o modelo [ISO/IEC 25010:2023](https://cdn.standards.iteh.ai/sample
 
 ## Classificação do Tipo de Produto  
 
-O Guardiões da Saúde é classificado como:
+O Guardiões da Saúde é classificado como um Sistema de Informação em Saúde (SIS) com foco em Vigilância Epidemiológica Participativa e Ciência Cidadã.
 
-## Critérios de Priorização das Características  
+Arquiteturalmente, é uma aplicação **mobile cliente-servidor**, composta por um frontend e um backend.
 
-As características de qualidade foram priorizadas com base nos seguintes critérios:  
-1.
-2.
-3.
+## Critérios de Priorização das Características
+
+As características de qualidade Adequação Funcional e Segurança foram priorizadas com base nos seguintes critérios:
+
+-
+-
+-
 
 ## Escopo, Profundidade e Objetos de Avaliação  
 
@@ -109,4 +115,4 @@ As características de qualidade foram priorizadas com base nos seguintes crité
 | `1.0`  | 26/09/2025 | Criação do Documento inicial                                | [João Pedro Costa](https://github.com/johnaopedro) | — |
 | `1.1`  | 28/09/2025 | Ajustando estrutura do documento para que se adeque ao que é pedido na documentação do trabalho | [João Pedro Costa](https://github.com/johnaopedro) | — |
 | `1.2`  | 28/09/2025 | Atualização do documento                                     | [Fernanda Vaz](https://github.com/Fernandavazgit1) | [Fernanda Vaz](https://github.com/Fernandavazgit1) |
-
+| `1.3`  | 28/09/2025 | Adição do conteudo sobre classificação do tipo de produto e perfis de usuário | [João Pedro Costa](https://github.com/johnaopedro) | — |
