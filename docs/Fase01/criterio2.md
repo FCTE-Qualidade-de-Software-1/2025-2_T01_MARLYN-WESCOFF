@@ -12,3 +12,10 @@
 - Pesquisador/Epidemiologista: Acadêmico ou cientista que utiliza la base de dados (sempre anonimizada) para realizar estudos científicos, validar modelos e gerar conhecimento sobre a dinâmica de doenças.
 
 - Administrador do Sistema: Desenvolvedor ou mantenedor do projeto que precisa garantir que a plataforma esteja funcionando corretamente, gerenciar o acesso e monitorar a saúde da infraestrutura.
+
+## Histórico de Versões
+
+| Versão | Data       | Descrição                                                   | Autor | Revisor |
+|:------:|:----------|:------------------------------------------------------------|:-----|:-------:|
+| `1.0`  | 28/09/2025 | Criação do Documento inicial                                | [OscarDeBrito](https://github.com/OscarDeBrito) | — |
+| `1.1`  | 28/09/2025 | Adicionando conteudo | [João Pedro Costa](https://github.com/johnaopedro) | — |

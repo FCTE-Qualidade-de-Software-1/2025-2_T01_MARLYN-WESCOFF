@@ -11,3 +11,10 @@ Arquiteturalmente, é uma aplicação mobile cliente-servidor, composta por:
 - Backend: Guardiões API
 
 A plataforma é projetada para coleta, monitoramento e análise de dados em saúde, apoiando a vigilância epidemiológica comunitária.
+
+## Histórico de Versões
+
+| Versão | Data       | Descrição                                                   | Autor | Revisor |
+|:------:|:----------|:------------------------------------------------------------|:-----|:-------:|
+| `1.0`  | 28/09/2025 | Criação do Documento inicial                                | [OscarDeBrito](https://github.com/OscarDeBrito) | — |
+| `1.1`  | 28/09/2025 | Adicionando conteudo | [João Pedro Costa](https://github.com/johnaopedro) | — |
