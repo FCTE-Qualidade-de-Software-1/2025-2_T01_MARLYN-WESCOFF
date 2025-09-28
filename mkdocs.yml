@@ -65,5 +65,17 @@ markdown_extensions:
   - md_in_html
 
 nav:
-  -  Início: index.md
-  -  Fase 01: fase01.md
+  - Início: index.md
+  - Fase 01:
+      - 1.1 Propósito da avaliação e uso pretendido: Fase01/criterio1.md
+      - 1.2 Requisitante e Partes Interessadas: Fase01/criterio2.md
+      - 1.3 Tipo de produto e descrição estruturada do software: Fase01/criterio3.md
+      - 1.4 Modelo de qualidade (adaptação + representação gráfica): Fase01/criterio4.md
+      - 1.5 Seleção e priorização de características: Fase01/criterio5.md
+      - 1.6 Escopo, profundidade e objetos de avaliação: Fase01/criterio6.md
+      - 1.7 ODS, metas e indicadores relacionados: Fase01/criterio7.md
+
+
+
+
+

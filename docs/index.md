@@ -52,13 +52,13 @@ O trabalho dessas programadoras foi inicialmente subestimado, mas hoje elas são
       <sub>221000000</sub>
     </td>
     <td align="center">
-      <a href="https://github.com/usuario4">
-        <img style="border-radius: 50%;" src="https://github.com/usuario4.png" width="100px;" alt="Nome do Usuário 4"/>
+      <a href="https://github.com/OscarDeBrito">
+        <img style="border-radius: 50%;" src="https://github.com/OscarDeBrito.png" width="100px;" alt="Nome do Usuário 4"/>
       </a>
       <br />
-      <sub><b>Nome do Usuário 4</b></sub>
+      <sub><b>Oscar de Brito 4</b></sub>
       <br />
-      <sub>221000000</sub>
+      <sub>211031790</sub>
     </td>
     <td align="center">
       <a href="https://github.com/johnaopedro">
