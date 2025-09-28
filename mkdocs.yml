@@ -29,7 +29,7 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  logo: images/Marlyn Wescoff.png
+  logo: docs/images/MarlynWescoff.png
   favicon: images/favicon.ico
   # Configuração de ícones
   icon:
