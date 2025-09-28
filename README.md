@@ -18,7 +18,7 @@ https://proepidesenvolvimento.github.io/guardioes-api/
           <img style="border-radius: 50%;" src="https://github.com/marcellaanderle.png" width="100px;" alt=""/>
         </a>
         <br />
-        <sub><b>Marcella Anderle</b></sub>
+        <sub><b><a href="https://github.com/marcellaanderle">Marcella Anderle</a></b></sub>
         <br />
         <sub>221035040</sub>
       </td>
