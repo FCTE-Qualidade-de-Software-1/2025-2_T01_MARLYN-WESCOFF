@@ -2,7 +2,7 @@
 
 ## :scroll: Sobre o projeto
 
-Este projeto tem como objetivo aplicar os conceitos e práticas de Qualidade de Software, estudados ao longo da disciplina, na avaliação do aplicativo GUardiões da Saúde.
+Este projeto tem como objetivo aplicar os conceitos e práticas de Qualidade de Software, estudados ao longo da disciplina, na avaliação do aplicativo Guardiões da Saúde.
 
 ## :paperclip: Link da página de documentação
 https://proepidesenvolvimento.github.io/guardioes-api/
@@ -13,7 +13,8 @@ https://proepidesenvolvimento.github.io/guardioes-api/
 <div align="center">
   <table>
     <tr>
-      <td align="center"><a href="https://github.com/marcellaanderle"><img style="border-radius: 50%;" src="https://github.com/marcellaanderle.png" width="100px;" alt=""/><br /><sub><b>Marcella Anderle</b></td>
+      <td align="center"><a href="https://github.com/marcellaanderle"><img style="border-radius: 50%;" src="https://github.com/marcellaanderle.png" width="100px;" alt=""/><br /><sub><b>Marcella Anderle</b><sub><b>221035040</b>
+    </td>
   </table>
 </div>
 
