@@ -29,7 +29,7 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  logo: docs/images/MarlynWescoff.png
+  logo: https://raw.githubusercontent.com/FCTE-Qualidade-de-Software-1/2025-2_T01_MARLYN-WESCOFF/refs/heads/main/docs/images/MarlynWescoff.png
   favicon: images/favicon.ico
   # Configuração de ícones
   icon:
