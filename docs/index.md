@@ -43,20 +43,20 @@ O trabalho dessas programadoras foi inicialmente subestimado, mas hoje elas são
       <sub>221000000</sub>
     </td>
     <td align="center">
-      <a href="https://github.com/usuario3">
-        <img style="border-radius: 50%;" src="https://github.com/usuario3.png" width="100px;" alt="Nome do Usuário 3"/>
+      <a href="https://github.com/YanWerlley">
+        <img style="border-radius: 50%;" src="https://github.com/YanWerlley.png" width="100px;" alt="Yan Werlley"/>
       </a>
       <br />
-      <sub><b>Nome do Usuário 3</b></sub>
+      <sub><b>Yan Werlley</b></sub>
       <br />
-      <sub>221000000</sub>
+      <sub>211030649</sub>
     </td>
     <td align="center">
       <a href="https://github.com/OscarDeBrito">
-        <img style="border-radius: 50%;" src="https://github.com/OscarDeBrito.png" width="100px;" alt="Nome do Usuário 4"/>
+        <img style="border-radius: 50%;" src="https://github.com/OscarDeBrito.png" width="100px;" alt="Oscar de Brito"/>
       </a>
       <br />
-      <sub><b>Oscar de Brito 4</b></sub>
+      <sub><b>Oscar de Brito</b></sub>
       <br />
       <sub>211031790</sub>
     </td>
