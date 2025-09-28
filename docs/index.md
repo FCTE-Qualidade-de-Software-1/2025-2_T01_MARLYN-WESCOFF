@@ -9,6 +9,6 @@ Marlyn Wescoff, na disciplina de Qualidade de Software.
 # Marlyn Wescoff
 
 <div align="center">
-  <img src="images/Marlyn Wescoff.png" alt="Marlyn Wescoff" width="300"
+  <img src="https://raw.githubusercontent.com/FCTE-Qualidade-de-Software-1/2025-2_T01_MARLYN-WESCOFF/refs/heads/main/docs/images/MarlynWescoff.png" alt="Marlyn Wescoff" width="300"
 
 Marlyn Wescoff Meltzer (1922 – 7 de dezembro de 2008 [ 3 ] ) foi uma matemática e programadora de computadores americana, e uma das seis programadoras originais do ENIAC , o primeiro computador digital eletrônico de uso geral.
