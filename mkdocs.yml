@@ -50,9 +50,6 @@ copyright: "Copyright &copy; 2025 - Equipe Marlyn Wescoff"
 plugins:
   - search:
       lang: pt
-  - git-revision-date-localized:
-      type: date
-      locale: pt
 
 # Extensões do Markdown
 markdown_extensions:
