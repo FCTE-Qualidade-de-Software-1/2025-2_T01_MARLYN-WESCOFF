@@ -114,5 +114,5 @@ As características de qualidade Adequação Funcional e Segurança foram priori
 |:------:|:----------|:------------------------------------------------------------|:-----|:-------:|
 | `1.0`  | 26/09/2025 | Criação do Documento inicial                                | [João Pedro Costa](https://github.com/johnaopedro) | — |
 | `1.1`  | 28/09/2025 | Ajustando estrutura do documento para que se adeque ao que é pedido na documentação do trabalho | [João Pedro Costa](https://github.com/johnaopedro) | — |
-| `1.2`  | 28/09/2025 | Atualização do documento                                     | [Fernanda Vaz](https://github.com/Fernandavazgit1) | [Fernanda Vaz](https://github.com/Fernandavazgit1) |
+| `1.2`  | 28/09/2025 | Atualização do documento                                     | [Fernanda Vaz](https://github.com/Fernandavazgit1) | — |
 | `1.3`  | 28/09/2025 | Adição do conteudo sobre classificação do tipo de produto e perfis de usuário | [João Pedro Costa](https://github.com/johnaopedro) | — |
