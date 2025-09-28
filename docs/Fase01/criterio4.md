@@ -23,4 +23,4 @@ De acordo com o modelo [ISO/IEC 25010:2023](https://cdn.standards.iteh.ai/sample
 
 | Versão | Data       | Descrição                         | Autor                                | Revisor |
 |:------:|:----------|:----------------------------------|:-------------------------------------|:-------:|
-| 1.0    | 26/09/2025 | Criação do Documento inicial      | [nome](https://github.com/github)    |   —     |
+| 1.0   | 28/09/2025 | Criação do Documento inicial      | [Oscar de Brito](https://github.com/OscarDeBrito)    |   —     |

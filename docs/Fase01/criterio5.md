@@ -13,4 +13,4 @@ As características de qualidade **Adequação Funcional** e **Segurança** fora
 
 | Versão | Data       | Descrição                         | Autor                                | Revisor |
 |:------:|:----------|:----------------------------------|:-------------------------------------|:-------:|
-| 1.0    | 26/09/2025 | Criação do Documento inicial      | [nome](https://github.com/github)    |   —     |
+| 1.0   | 28/09/2025 | Criação do Documento inicial      | [Oscar de Brito](https://github.com/OscarDeBrito)    |   —     |
