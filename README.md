@@ -10,21 +10,6 @@ https://proepidesenvolvimento.github.io/guardioes-api/
 # Contribuidores do Projeto:
 
 <!-- Foto dos participantes do grupo -->
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <a href="https://github.com/marcellaanderle">
-          <img style="border-radius: 50%;" src="https://github.com/marcellaanderle.png" width="100px;" alt=""/>
-        </a>
-        <br />
-        <sub><b><a href="https://github.com/marcellaanderle">Marcella Anderle</a></b></sub>
-        <br />
-        <sub>221035040</sub>
-      </td>
-    </tr>
-  </table>
-</div>
 
 <hr/>
 

@@ -1,0 +1,66 @@
+site_name: Marlyn Wescoff
+repo_name: "Marlyn Wescoff"
+repo_url: https://github.com/FCTE-Qualidade-de-Software-1/2025-2_T01_MARLYN-WESCOFF.git 
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.share
+    - toc.integrate
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Mudar para modo escuro
+    - scheme: slate
+      primary: deep blue 
+      accent: lime
+      toggle:
+        icon: material/brightness-4
+        name: Mudar para modo claro
+  font:
+    text: Roboto
+    code: Roboto Mono
+  logo: images/Marlyn Wescoff.png
+  favicon: images/favicon.ico
+  # Configuração de ícones
+  icon:
+    repo: fontawesome/brands/github
+    logo: material/code-braces
+
+# Plugins para melhor funcionalidade
+plugins:
+  - search:
+      lang: pt
+
+# Configuração de ícones personalizados
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/FCTE-Qualidade-de-Software-1/2025-2_T01_MARLYN-WESCOFF.git
+      name: GitHub Repository
+
+# Extensões do Markdown
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - md_in_html
+
+nav:
+  - 🏠 Início: index.md
+  -  Fase 01: fase01.md
