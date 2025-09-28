@@ -13,8 +13,19 @@ A avaliação destina-se a diferentes públicos:
 Optamos pelo método **GQM (Goal-Question-Metric)**, com foco em **Adequação Funcional** e **Segurança**, características essenciais em vigilância epidemiológica e proteção de dados sensíveis.  
 Essa etapa estabelece as bases conceituais e práticas que nortearão as fases futuras, em conformidade com a norma **ISO/IEC 25000 (SQuaRE)**.
 
+## Referências
+
+As informações sobre o propósito da avaliação foram obtidas nas seguintes fontes:
+
+- **PROEPIDDESENVOLVIMENTO**. *Guardiões App (Frontend)*. Disponível em: [https://github.com/ProEpiDesenvolvimento/guardioes-app](https://github.com/ProEpiDesenvolvimento/guardioes-app). Acesso em: 28 set. 2025.
+
+- **PROEPIDDESENVOLVIMENTO**. *Guardiões API (Backend)*. Disponível em: [https://github.com/ProEpiDesenvolvimento/guardioes-api](https://github.com/ProEpiDesenvolvimento/guardioes-api). Acesso em: 28 set. 2025.
+
+- **GUARDIÕES DA SAÚDE**. *Página oficial (Play Store)*. Disponível em: [https://play.google.com/store/apps/details?id=com.guardioesapp&hl=pt_BR](https://play.google.com/store/apps/details?id=com.guardioesapp&hl=pt_BR). Acesso em: 28 set. 2025.
+
+
 ## Histórico de Versões
 
 | Versão | Data       | Descrição                         | Autor                                | Revisor |
 |:------:|:----------|:----------------------------------|:-------------------------------------|:-------:|
-| 1.0    | 26/09/2025 | Criação do Documento inicial      | [nome](https://github.com/github)    |   —     |
+| 1.0    | 26/09/2025 | Criação do Documento inicial e adição de parte do conteudo | [João Pedro Costa](https://github.com/johnaopedro) |   —     |
