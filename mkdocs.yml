@@ -13,6 +13,7 @@ theme:
     - search.highlight
     - search.share
     - toc.integrate
+    - content.code.copy
   palette:
     - scheme: default
       primary: indigo
@@ -36,17 +37,22 @@ theme:
     repo: fontawesome/brands/github
     logo: material/code-braces
 
-# Plugins para melhor funcionalidade
-plugins:
-  - search:
-      lang: pt
-
-# Configuração de ícones personalizados
 extra:
+  version:
+    provider: mike
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/FCTE-Qualidade-de-Software-1/2025-2_T01_MARLYN-WESCOFF.git
       name: GitHub Repository
+  
+copyright: "Copyright &copy; 2025 - Equipe Marlyn Wescoff"
+
+plugins:
+  - search:
+      lang: pt
+  - git-revision-date-localized:
+      type: date
+      locale: pt
 
 # Extensões do Markdown
 markdown_extensions:
@@ -62,5 +68,5 @@ markdown_extensions:
   - md_in_html
 
 nav:
-  - 🏠 Início: index.md
+  -  Início: index.md
   -  Fase 01: fase01.md
