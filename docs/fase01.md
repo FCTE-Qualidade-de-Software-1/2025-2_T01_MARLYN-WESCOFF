@@ -4,7 +4,7 @@
 
 Nesta fase inicial, buscamos definir com clareza os fundamentos da avaliação de qualidade do software **Guardiões da Saúde** (App + API). O principal objetivo foi compreender o propósito da avaliação, identificar os produtos a serem avaliados e selecionar o modelo de qualidade mais adequado.
 
-Optamos pelo modelo **ISO/IEC 25010**, com foco em **Adequação Funcional** e **Segurança** — características críticas para o contexto de vigilância epidemiológica e proteção de dados sensíveis. Essa etapa estabelece as bases conceituais e práticas que nortearão as fases futuras, em conformidade com a norma ISO/IEC 25000 (SQuaRE).
+Optamos pelo modelo (AQUI É O METODO NÃO A ISO), com foco em **Adequação Funcional** e **Segurança** — características críticas para o contexto de vigilância epidemiológica e proteção de dados sensíveis. Essa etapa estabelece as bases conceituais e práticas que nortearão as fases futuras, em conformidade com a norma ISO/IEC 25000 (SQuaRE).
 
 
 ## Sobre o Projeto
@@ -87,4 +87,4 @@ As características de qualidade foram priorizadas com base nos seguintes crité
 | Versão | Data | Descrição | Autor | Revisor |
 |:--------:|:-------|:-------------|:--------|:-----------:|
 | `1.0` | 26/09/2025 | Criação do Documento inicial | [João Pedro Costa](https://github.com/johnaopedro) | — |
-| `1.1` | 26/09/2025 | Ajustando estrutura do documento para que se adeque ao que é pedido na documentação do trabalho | [João Pedro Costa](https://github.com/johnaopedro) | — |
+| `1.1` | 28/09/2025 | Ajustando estrutura do documento para que se adeque ao que é pedido na documentação do trabalho | [João Pedro Costa](https://github.com/johnaopedro) | — |
