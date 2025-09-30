@@ -1,5 +1,8 @@
 # Propósito da avaliação e uso pretendido
 
+![](docs\images\guadioesdasaude.png)
+
+
 Nesta fase inicial, buscamos definir os fundamentos da avaliação de qualidade do software **Guardiões da Saúde (App + API)**.  
 O principal objetivo é compreender o propósito da avaliação, identificar os produtos a serem avaliados e selecionar o modelo de qualidade mais adequado.
 
@@ -26,7 +29,8 @@ As informações sobre o propósito da avaliação foram obtidas nas seguintes f
 
 ## Histórico de Versões
 
-| Versão | Data       | Descrição                         | Autor                                | Revisor |
-|:------:|:----------|:----------------------------------|:-------------------------------------|:-------:|
-| 1.0    | 26/09/2025 | Criação do Documento inicial e adição de parte do conteudo | [João Pedro Costa](https://github.com/johnaopedro) |   —     |
-| 1.1   | 28/09/2025 | Atualização do conteúdo      | [Oscar de Brito](https://github.com/OscarDeBrito)    |   —     |
+| Versão | Data       | Descrição                                      | Autor                                                                 | Revisor |
+|:------:|:----------|:-----------------------------------------------|:----------------------------------------------------------------------|:-------:|
+| 1.0    | 26/09/2025 | Criação do Documento inicial e adição de parte do conteúdo | [João Pedro Costa](https://github.com/johnaopedro) |   —     |
+| 1.1    | 28/09/2025 | Atualização do conteúdo                        | [Oscar de Brito](https://github.com/OscarDeBrito)    |   —     |
+| 1.2    | 30/09/2025 | Adição de imagem                               | [Fernanda Vaz](https://github.com/Fernandavazgit1)   |   —     |

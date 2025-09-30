@@ -1,5 +1,8 @@
 # Critério 7 — ODS, metas e indicadores relacionados
 
+![Ods](\QUALIDADETRABFIN\2025-2_T01_MARLYN-WESCOFF\docs\images\ODSONU.png)
+
+
 ## Contribuição aos Objetivos de Desenvolvimento Sustentável (ODS)
 
 ### ODS 3 – Saúde e Bem-Estar
@@ -27,4 +30,4 @@
 
 | Versão | Data       | Descrição                         | Autor                                | Revisor |
 |:------:|:----------|:----------------------------------|:-------------------------------------|:-------:|
-| 1.0    | 26/09/2025 | Criação do Documento inicial      | [nome](https://github.com/github)    |   —     |
+| 1.0    | 26/09/2025 | Criação do Documento inicial      | [Fernanda](https://github.com/Fernandavazgit1)    |      |
