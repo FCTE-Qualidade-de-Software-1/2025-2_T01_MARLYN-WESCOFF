@@ -1,6 +1,6 @@
 # Critério 7 — ODS, metas e indicadores relacionados
 
-![Ods](\QUALIDADETRABFIN\2025-2_T01_MARLYN-WESCOFF\docs\images\ODSONU.png)
+![Ods](https://raw.githubusercontent.com/FCTE-Qualidade-de-Software-1/2025-2_T01_MARLYN-WESCOFF/refs/heads/main/docs/images/ODSONU.png)
 
 
 ## Contribuição aos Objetivos de Desenvolvimento Sustentável (ODS)
