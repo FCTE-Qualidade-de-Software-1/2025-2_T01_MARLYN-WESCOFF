@@ -25,6 +25,11 @@
 ### ODS 17 – Parcerias e Meios de Implementação
 - Viabiliza colaboração entre governo, universidades, empresas e sociedade civil no uso dos dados coletados.
 
+## Referências
+
+>NAÇÕES UNIDAS BRASIL. Objetivos de Desenvolvimento Sustentável. Disponível em: <https://brasil.un.org/pt-br/sdgs>. Acesso em: 30 set. 2025.
+
+
 
 ## Histórico de Versões
 
