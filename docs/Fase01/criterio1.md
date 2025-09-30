@@ -1,6 +1,6 @@
 # Propósito da avaliação e uso pretendido
 
-![](docs\images\guadioesdasaude.png)
+![](https://raw.githubusercontent.com/FCTE-Qualidade-de-Software-1/2025-2_T01_MARLYN-WESCOFF/refs/heads/main/docs/images/guadioesdasaude.png)
 
 
 Nesta fase inicial, buscamos definir os fundamentos da avaliação de qualidade do software **Guardiões da Saúde (App + API)**.  
