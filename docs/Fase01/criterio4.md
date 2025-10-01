@@ -91,3 +91,4 @@ No **Guardiões da Saúde**, essas subcaracterísticas respondem a exigências l
 |:------:|:-----------|:-----------------------------------|:--------------------------------------------------------------|:-------:|
 | 1.0    | 28/09/2025 | Criação do documento inicial       | [Oscar de Brito](https://github.com/OscarDeBrito)             |   —     |
 | 1.1    | 30/09/2025 | Adição de referências bibliográficas | Fernanda Vaz                                                  |   —     |
+| 1.2    | 30/09/2025 | Atualiza Critério 5        | [Oscar de Brito](https://github.com/OscarDeBrito)             |   —     |
