@@ -34,13 +34,13 @@ O trabalho dessas programadoras foi inicialmente subestimado, mas hoje elas são
       <sub>221035040</sub>
     </td>
     <td align="center">
-      <a href="https://github.com/usuario2">
-        <img style="border-radius: 50%;" src="https://github.com/usuario2.png" width="100px;" alt="Nome do Usuário 2"/>
+      <a href="https://github.com/RufinoVfR">
+        <img style="border-radius: 50%;" src="https://github.com/RufinoVfR.png" width="100px;" alt="Vinicius"/>
       </a>
       <br />
-      <sub><b>Nome do Usuário 2</b></sub>
+      <sub><b>Vinicius</b></sub>
       <br />
-      <sub>221000000</sub>
+      <sub>200062891</sub>
     </td>
     <td align="center">
       <a href="https://github.com/YanWerlley">
