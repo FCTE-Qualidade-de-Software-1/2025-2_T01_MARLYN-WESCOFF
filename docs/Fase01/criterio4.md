@@ -88,4 +88,4 @@ No **Guardiões da Saúde**, essas subcaracterísticas respondem a exigências l
 | 1.0    | 28/09/2025 | Criação do documento inicial       | [Oscar de Brito](https://github.com/OscarDeBrito)             |   —     |
 | 1.1    | 30/09/2025 | Adição de referências bibliográficas | Fernanda Vaz                                                  |   —     |
 | 1.2    | 30/09/2025 | Atualiza Critério 5        | [Oscar de Brito](https://github.com/OscarDeBrito)             |   [João Pedro Costa](https://github.com/johnaopedro)   |
-| 1.3    | 28/09/2025 | Correção de imagens e hyperlinks de conteudo para referências | [João Pedro Costa](https://github.com/johnaopedro) |   —    |
+| 1.3    | 01/10/2025 | Correção de imagens e hyperlinks de conteudo para referências | [João Pedro Costa](https://github.com/johnaopedro) |   —    |
