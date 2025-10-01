@@ -74,6 +74,15 @@ https://fcte-qualidade-de-software-1.github.io/2025-2_T01_MARLYN-WESCOFF
       <br />
       <sub>221007715</sub>
     </td>
+    <td align="center">
+      <a href="https://github.com/RufinoVfR">
+        <img style="border-radius: 50%;" src="https://github.com/RufinoVfR.png" width="100px;" alt=""/>
+      </a>
+      <br />
+      <sub><b>Vinícius Rufino </b></sub>
+      <br />
+      <sub>200062891 </sub>
+    </td>
   </tr>
 </table>
 
