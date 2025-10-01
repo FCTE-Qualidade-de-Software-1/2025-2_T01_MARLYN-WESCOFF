@@ -1,7 +1,6 @@
 # ODS, metas e indicadores relacionados
 
-![Ods](https://raw.githubusercontent.com/FCTE-Qualidade-de-Software-1/2025-2_T01_MARLYN-WESCOFF/refs/heads/main/docs/images/ODSONU.png)
-
+<img src="https://raw.githubusercontent.com/FCTE-Qualidade-de-Software-1/2025-2_T01_MARLYN-WESCOFF/refs/heads/main/docs/images/ODSONU.png" alt="Descrição" style="display: block; margin: 0 auto; width: 80%; max-width: 1200px;">
 
 ## Contribuição aos Objetivos de Desenvolvimento Sustentável (ODS)
 
