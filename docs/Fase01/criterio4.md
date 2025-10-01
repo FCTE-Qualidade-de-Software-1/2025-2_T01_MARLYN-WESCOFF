@@ -9,7 +9,7 @@ A norma define dois modelos complementares:
 - **Modelo de qualidade em uso**, composto por cinco características: efetividade, eficiência, satisfação, liberdade de risco e cobertura de contexto.  
 
 <p align="center">
- Figura 1 -  Modelo de qualidade de produto
+ Figura 1 -  Modelo de qualidade em uso
 </p>
 
 ![](../../images/QIU.png)
