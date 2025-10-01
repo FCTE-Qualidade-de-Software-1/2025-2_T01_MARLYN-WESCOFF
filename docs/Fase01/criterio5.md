@@ -6,10 +6,21 @@ Para garantir uma priorização eficiente das características de qualidade de s
 
 O **Método MoSCoW** é um framework de priorização desenvolvido nos anos 1990 por **Dai Clegg**. No contexto de qualidade de software, permite organizar as características de qualidade de acordo com sua importância para o projeto, classificando-as em quatro categorias:
 
-- **Must have (Obrigatório):** características de qualidade essenciais e indispensáveis, cuja ausência comprometeria o sucesso do sistema (ex.: segurança e confiabilidade).  
-- **Should have (Importante):** características relevantes, mas não críticas, que podem ser implementadas em etapas posteriores sem comprometer o funcionamento principal (ex.: usabilidade avançada).  
-- **Could have (Desejável):** características que agregam valor adicional ao software, mas não são essenciais; podem ser incluídas caso haja tempo e recursos disponíveis (ex.: personalização da interface).  
-- **Won’t have (Não será implementado no momento):** características de baixa prioridade, acordadas como não incluídas na versão atual, de forma a evitar o aumento desnecessário do escopo.  
+- **Must have (Obrigatório):** subcaracterísticas essenciais de qualidade de software cuja ausência comprometeria o sucesso do sistema. Para este projeto, incluem:  
+  - **Segurança:** confidencialidade, integridade, autenticação adequada e proteção contra falhas.  
+  - **Adequação Funcional:** completude e corretude das funções.  
+
+- **Should have (Importante):** subcaracterísticas relevantes, mas não críticas, que podem ser implementadas posteriormente sem comprometer o funcionamento principal. Exemplos:  
+  - **Adequação Funcional:** adequação das funções ao propósito pretendido.  
+  - **Segurança:** não-repúdio (garantia de que ações ou transações não podem ser negadas).  
+
+- **Could have (Desejável):** subcaracterísticas que agregam valor adicional ao software, mas não são essenciais; podem ser incluídas caso haja tempo e recursos disponíveis. Exemplos:  
+  - **Adequação Funcional:** melhorias de usabilidade dentro das funções.  
+  - **Segurança:** mecanismos adicionais de monitoramento ou auditoria.  
+
+- **Won’t have (Não será implementado no momento):** subcaracterísticas de baixa prioridade, acordadas como não incluídas na versão atual, evitando aumento desnecessário do escopo. Exemplos:  
+  - Qualquer melhoria ou refinamento de funções que não impacte diretamente a completude, corretude ou segurança crítica do sistema.
+
 
 Essa abordagem garante foco nas características de qualidade mais críticas, promovendo alinhamento entre a equipe.
 
