@@ -12,8 +12,8 @@ A tabela abaixo apresenta os membros da equipe e suas contribuições para o pro
 | Vinícius Fernandes Rufino | 200062891   |  Aqui você comentará sobre o que você contribuiu nesse projeto, ou seja, se fez coisa A ou B, aqui você demonstra tudo o que fez.                                                          |   %             |
 | Yan Werlley           | 211030649   |  Aqui você comentará sobre o que você contribuiu nesse projeto, ou seja, se fez coisa A ou B, aqui você demonstra tudo o que fez.                                                            |   %             |
 | Oscar de Brito        | 211031790   |  Aqui você comentará sobre o que você contribuiu nesse projeto, ou seja, se fez coisa A ou B, aqui você demonstra tudo o que fez.                                                              |   %             |
-| João Pedro Costa      | 190030801   |  Criação, elaboração e atualização dos conteúdos sobre: propósito da avaliação, partes interessadas, ajuste em modelo de qualidade, tipo de produto, características, escopo, profundidade e objetos de avaliação, além de ajustes nas referências bibliográficas.                                                              |   %             |
-| Fernanda Vaz          | 221007715   |  Eu criei o documento inicial, fiz as paginas de introdução e Ods.                                                            |   %   16,66          |
+| João Pedro Costa      | 190030801   |  Criação, elaboração e atualização dos conteúdos sobre: propósito da avaliação, partes interessadas, ajuste em modelo de qualidade, tipo de produto, características, escopo, profundidade e objetos de avaliação, além de ajustes nas referências bibliográficas.                                                              |   16,66%             |
+| Fernanda Vaz          | 221007715   |  Eu criei o documento inicial, fiz as paginas de introdução e Ods.                                                            |      16,66%          |
 
 <figcaption></figcaption>
 </figure>
