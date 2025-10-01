@@ -6,10 +6,10 @@ Para orientar a seleção das subcaracterísticas de qualidade do software a ser
 
 O MoSCoW organiza requisitos ou atributos de qualidade em quatro categorias principais:  
 
-- **Must have (Obrigatório):** elementos imprescindíveis para o sucesso do projeto. Sua ausência compromete a confiabilidade ou a viabilidade do sistema.  
-- **Should have (Importante):** elementos altamente relevantes, mas que podem ser postergados ou entregues em uma segunda iteração sem inviabilizar a solução.  
-- **Could have (Desejável):** elementos que agregam valor ou benefícios adicionais, mas que não são essenciais; sua implementação depende da disponibilidade de tempo e recursos.  
-- **Won’t have (Não será implementado no momento):** elementos considerados de baixa prioridade e que, de forma deliberada, ficam fora do escopo atual para evitar inchaço de requisitos (*scope creep*).  
+1. **Must have (Obrigatório):** elementos imprescindíveis para o sucesso do projeto. Sua ausência compromete a confiabilidade ou a viabilidade do sistema.  
+2. **Should have (Importante):** elementos altamente relevantes, mas que podem ser postergados ou entregues em uma segunda iteração sem inviabilizar a solução.  
+3. **Could have (Desejável):** elementos que agregam valor ou benefícios adicionais, mas que não são essenciais; sua implementação depende da disponibilidade de tempo e recursos.  
+4. **Won’t have (Não será implementado no momento):** elementos considerados de baixa prioridade e que, de forma deliberada, ficam fora do escopo atual para evitar inchaço de requisitos (*scope creep*).
 
 Essa abordagem garante que a priorização das subcaracterísticas de qualidade seja **transparente, negociada entre stakeholders e alinhada ao contexto do Guardiões da Saúde**.
 

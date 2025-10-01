@@ -4,14 +4,14 @@
 
 ## Propósito da Avaliação
 
-Nesta fase inicial, buscamos estabelecer os fundamentos para a avaliação da qualidade do software [Guardiões da Saúde](#ref2), abrangendo tanto o [frontend](#ref4) quanto o [backend](#ref3).
+Nesta fase inicial, buscamos estabelecer os fundamentos para a avaliação da qualidade do software [Guardiões da Saúde](#ref2), abrangendo todo o ciclo de desenvolvimento do software (Desde a análise até a Implementação)
 O principal objetivo é compreender o propósito da avaliação, identificar os produtos a serem avaliados e selecionar o modelo de qualidade mais adequado.
 
 O propósito da avaliação é verificar a efetividade do [Guardiões da Saúde](#ref2) como ferramenta de vigilância epidemiológica participativa, capaz de transformar relatos da população em informações estratégicas para a saúde pública.  
 
 A avaliação destina-se a diferentes públicos:
 - **Sociedade em geral** → boletins epidemiológicos.  
-- **Comunidade acadêmica (UnB e parceiros)** → monitoramento e pesquisa.  
+- **Comunidade acadêmica (UnB e parceiros)** → atividades de pesquisa científica e monitoramento epidemiológico.  
 - **Gestores de saúde do SUS** → decisões específicas (planos de contingência, ações preventivas).
 
 Essa etapa estabelece as bases conceituais e práticas que nortearão as fases futuras, em conformidade com a norma **[ISO/IEC 25010](#ref1)**.
