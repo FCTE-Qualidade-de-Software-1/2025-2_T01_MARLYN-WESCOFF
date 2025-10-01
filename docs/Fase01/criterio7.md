@@ -1,4 +1,4 @@
-# Critério 7 — ODS, metas e indicadores relacionados
+# ODS, metas e indicadores relacionados
 
 ![Ods](https://raw.githubusercontent.com/FCTE-Qualidade-de-Software-1/2025-2_T01_MARLYN-WESCOFF/refs/heads/main/docs/images/ODSONU.png)
 

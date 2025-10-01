@@ -1,4 +1,4 @@
-# Critério 5 — Seleção e Priorização de Características
+# Seleção e Priorização de Características
 
 ## Critérios de Priorização
 

@@ -1,4 +1,4 @@
-# Critério 3 — Tipo de produto e descrição estruturada do software
+# Tipo de produto e descrição estruturada do software
 
 ## Sobre o Projeto
 

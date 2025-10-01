@@ -1,4 +1,4 @@
-# Critério 6 — Escopo, profundidade e objetos de avaliação
+# Escopo, profundidade e objetos de avaliação
 
 ## **Escopo** 
 A avaliação focará nas características essenciais de **Adequação Funcional** e **Segurança**. O objetivo é garantir que o aplicativo cumpra suas funções declaradas e proteja os dados dos usuários, deixando as demais características do modelo [ISO/IEC 25010](#ref1) fora desta análise.

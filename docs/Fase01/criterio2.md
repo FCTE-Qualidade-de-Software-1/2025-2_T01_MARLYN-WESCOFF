@@ -1,4 +1,4 @@
-# Critério 2 — Requisitante e Partes Interessadas
+# Requisitante e Partes Interessadas
 
 ## Requisitantes Principais
 - **ProEpi**: Responsável pelo desenvolvimento, manutenção e governança do aplicativo e da API.  

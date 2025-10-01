@@ -1,4 +1,4 @@
-# Critério 4 — Modelo de qualidade (adaptação + representação gráfica)
+# Modelo de qualidade
 
 ## 1. Contexto da norma ISO/IEC 25010
 

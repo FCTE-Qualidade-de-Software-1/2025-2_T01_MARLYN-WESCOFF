@@ -1,4 +1,4 @@
-# Critério 1 — Propósito da avaliação e uso pretendido
+# Propósito da avaliação e uso pretendido
 
 ![](https://raw.githubusercontent.com/FCTE-Qualidade-de-Software-1/2025-2_T01_MARLYN-WESCOFF/refs/heads/main/docs/images/guadioesdasaude.png)
 
