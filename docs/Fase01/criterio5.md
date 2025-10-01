@@ -2,13 +2,16 @@
 
 ## Critérios de Priorização
 
-As características de qualidade **Segurança** e **Adequação Funcional** foram priorizadas considerando a relevância para os objetivos e o contexto de uso do aplicativo:
+Para garantir uma priorização eficiente das características de qualidade de software, adotamos o **Método MoSCoW**.  
 
-- **Segurança**  
-  O aplicativo coleta dados pessoais (como nome e data de nascimento) e dados pessoais sensíveis (como raça e informações de saúde de usuários e familiares). Tais dados exigem rigorosos mecanismos de **confidencialidade** e **integridade**, de modo a assegurar proteção contra acessos não autorizados e manipulações indevidas.  
+O **Método MoSCoW** é um framework de priorização desenvolvido nos anos 1990 por **Dai Clegg**. No contexto de qualidade de software, permite organizar as características de qualidade de acordo com sua importância para o projeto, classificando-as em quatro categorias:
 
-- **Adequação Funcional**  
-  As funcionalidades devem garantir que o aplicativo cumpra seu propósito principal: fortalecer a vigilância participativa em saúde e possibilitar a contribuição ativa da população. Para isso, é necessário assegurar a correta **agregação dos dados de saúde**, a precisão dos **alertas epidemiológicos** e a presença de funções essenciais, como cadastro de usuários e registro de sintomas. Isso demanda **adequação**, **corretude** e **completude** das funcionalidades implementadas.  
+- **Must have (Obrigatório):** características de qualidade essenciais e indispensáveis, cuja ausência comprometeria o sucesso do sistema (ex.: segurança e confiabilidade).  
+- **Should have (Importante):** características relevantes, mas não críticas, que podem ser implementadas em etapas posteriores sem comprometer o funcionamento principal (ex.: usabilidade avançada).  
+- **Could have (Desejável):** características que agregam valor adicional ao software, mas não são essenciais; podem ser incluídas caso haja tempo e recursos disponíveis (ex.: personalização da interface).  
+- **Won’t have (Não será implementado no momento):** características de baixa prioridade, acordadas como não incluídas na versão atual, de forma a evitar o aumento desnecessário do escopo.  
+
+Essa abordagem garante foco nas características de qualidade mais críticas, promovendo alinhamento entre a equipe.
 
 ---
 
