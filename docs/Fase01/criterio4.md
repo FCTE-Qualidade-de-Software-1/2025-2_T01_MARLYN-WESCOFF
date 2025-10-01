@@ -2,7 +2,7 @@
 
 ## 1. Contexto da norma ISO/IEC 25010
 
-O modelo de qualidade utilizado nesta avaliação está fundamentado na norma [ISO/IEC 25010](https://cdn.standards.iteh.ai/samples/35733/2ca18b477b7845a5b8cae39d6de0c098/ISO-IEC-25010-2011.pdf), integrante da série **SQuaRE (Systems and software Quality Requirements and Evaluation)**, que substituiu e expandiu o antigo modelo.  
+O modelo de qualidade utilizado nesta avaliação está fundamentado na norma [ISO/IEC 25010](https://cdn.standards.iteh.ai/samples/35733/2ca18b477b7845a5b8cae39d6de0c098/ISO-IEC-25010-2011.pdf), integrante da série **[SQuaRE (Systems and software Quality Requirements and Evaluation)](#ref2)**, que substituiu e expandiu o antigo modelo.  
 
 A norma define dois modelos complementares:
 
@@ -12,9 +12,7 @@ A norma define dois modelos complementares:
  Figura 1 -  Modelo de qualidade de produto
 </p>
 
-<p align="center">
-  <img src="../images/QIU.png" alt="Modelo de qualidade em uso" width="500"/>
-</p>
+![](../../images/QIU.png)
 
 
 
@@ -24,9 +22,7 @@ A norma define dois modelos complementares:
  Figura 2 - Modelo de qualidade do produto
 </p>
 
-<p align="center">
-  <img src="../images/SPQ.png" alt="Modelo de qualidade de produto" width="500"/>
-</p>
+![](../../images/SPQ.png)
 
 
 - O modelo pode ser aplicado tanto a produtos de software isolados quanto a sistemas computacionais que incluem software, hardware e dados associados. Entretanto, a própria norma admite que nem todas as características precisam ser especificadas ou medidas em todos os contextos, sendo possível realizar uma **adaptação (*tailoring*)**, desde que as justificativas sejam documentadas e mapeadas em relação ao modelo original.
@@ -40,7 +36,7 @@ No caso do **Guardiões da Saúde**, classificado como um **Sistema de Informaç
 
 ## 2. Adequação Funcional
 
-A **Adequação Funcional (Functional Suitability)**, conforme o ISO/IEC 25010, refere-se à *“capacidade do sistema de fornecer funções que satisfaçam as necessidades explícitas e implícitas quando utilizado em condições específicas”*
+A **Adequação Funcional (Functional Suitability)**, conforme o [ISO/IEC 25010](#ref1), refere-se à *“capacidade do sistema de fornecer funções que satisfaçam as necessidades explícitas e implícitas quando utilizado em condições específicas”*
 
 Essa característica subdivide-se em três subcaracterísticas:
 
@@ -57,7 +53,7 @@ No contexto do **Guardiões da Saúde**, essas dimensões são diretamente assoc
 
 ## 3. Segurança
 
-A **Segurança (Security)**, que no modelo anterior figurava como subcaracterística da funcionalidade, foi elevada no **ISO/IEC 25010** à condição de característica autônoma, composta pelas subcaracterísticas:
+A **Segurança (Security)**, que no modelo anterior figurava como subcaracterística da funcionalidade, foi elevada no **[ISO/IEC 25010](#ref1)** à condição de característica autônoma, composta pelas subcaracterísticas:
 
 - **Confidencialidade (Confidentiality):** proteção contra acesso não autorizado a dados e funções.  
 - **Integridade (Integrity):** prevenção contra modificações não autorizadas ou perda de consistência.  
@@ -75,13 +71,13 @@ No **Guardiões da Saúde**, essas subcaracterísticas respondem a exigências l
 
 ## Referências Bibliográficas
 
-1. INTERNATIONAL ORGANIZATION FOR STANDARDIZATION. *ISO/IEC 25010:2011 — Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models*. Geneva: ISO, 2011. Disponível em: <https://cdn.standards.iteh.ai/samples/35733/2ca18b477b7845a5b8cae39d6de0c098/ISO-IEC-25010-2011.pdf>. Acesso em: 30 set. 2025.  
+> <a id="ref1"></a> 1. INTERNATIONAL ORGANIZATION FOR STANDARDIZATION. *ISO/IEC 25010:2011 — Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models*. Geneva: ISO, 2011. Disponível em: <https://cdn.standards.iteh.ai/samples/35733/2ca18b477b7845a5b8cae39d6de0c098/ISO-IEC-25010-2011.pdf>. Acesso em: 30 set. 2025.  
 
-2. INTERNATIONAL ORGANIZATION FOR STANDARDIZATION. *ISO/IEC 25010:2023 — Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models*. Geneva: ISO, 2023. Disponível em: <https://www.iso.org/standard/78176.html>. Acesso em: 30 set. 2025.  
+> <a id="ref2"></a> 2. INTERNATIONAL ORGANIZATION FOR STANDARDIZATION. *ISO/IEC 25010:2023 — Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models*. Geneva: ISO, 2023. Disponível em: <https://www.iso.org/standard/78176.html>. Acesso em: 30 set. 2025.  
 
-3. ONE DAY TESTING. *ISO/IEC 25010 e a qualidade de software*. Blog One Day Testing, 2023. Disponível em: <https://blog.onedaytesting.com.br/iso-iec-25010/>. Acesso em: 30 set. 2025.  
+> <a id="ref3"></a> 3. ONE DAY TESTING. *ISO/IEC 25010 e a qualidade de software*. Blog One Day Testing, 2023. Disponível em: <https://blog.onedaytesting.com.br/iso-iec-25010/>. Acesso em: 30 set. 2025.  
 
-4. ARC42. *Quality Model — Update on ISO 25010, version 2023*. Quality.arc42.org, 2023. Disponível em: <https://quality.arc42.org/articles/iso-25010-update-2023>. Acesso em: 30 set. 2025.  
+> <a id="ref4"></a> 4. ARC42. *Quality Model — Update on ISO 25010, version 2023*. Quality.arc42.org, 2023. Disponível em: <https://quality.arc42.org/articles/iso-25010-update-2023>. Acesso em: 30 set. 2025.  
 
 ---
 
@@ -91,4 +87,5 @@ No **Guardiões da Saúde**, essas subcaracterísticas respondem a exigências l
 |:------:|:-----------|:-----------------------------------|:--------------------------------------------------------------|:-------:|
 | 1.0    | 28/09/2025 | Criação do documento inicial       | [Oscar de Brito](https://github.com/OscarDeBrito)             |   —     |
 | 1.1    | 30/09/2025 | Adição de referências bibliográficas | Fernanda Vaz                                                  |   —     |
-| 1.2    | 30/09/2025 | Atualiza Critério 5        | [Oscar de Brito](https://github.com/OscarDeBrito)             |   —     |
+| 1.2    | 30/09/2025 | Atualiza Critério 5        | [Oscar de Brito](https://github.com/OscarDeBrito)             |   [João Pedro Costa](https://github.com/johnaopedro)   |
+| 1.3    | 28/09/2025 | Correção de imagens e hyperlinks de conteudo para referências | [João Pedro Costa](https://github.com/johnaopedro) |   —    |
