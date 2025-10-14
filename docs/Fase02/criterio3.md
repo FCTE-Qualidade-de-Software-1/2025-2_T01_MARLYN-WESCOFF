@@ -4,10 +4,10 @@
 
 | Analisar | o aplicativo Guardiões da Saúde |
 |----------|--------------------------------|
-| Para o propósito de | Controlar e garantir |
+| Para o propósito de |Avaliar e melhorar |
 | Com respeito a | A segurança com foco em confidencialidade e integridade dos dados de saúde do usuário |
-| Do ponto de vista da | Do DPO (Data Protection Officer) e do Arquiteto de Segurança |
-| No contexto da | Do manuseio de dados em conformidade com a LGPD |
+| Do ponto de vista da | 	Da equipe de Equipe de desenvolvimento |
+| No contexto da |	Disciplina de Qualidade de Software (FCTE - UnB) |
  
 
 ## 2. Questions (Questões)
