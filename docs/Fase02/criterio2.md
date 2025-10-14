@@ -11,14 +11,35 @@
 
 
 ## 2. Questions (Questões)
+### Perguntas e Hipóteses de Medição
 
-### Q1: Completude Funcional
-**Q1.1: Cadastro e Autenticação**:
-O sistema oferece todas as funcionalidades necessárias para cadastro e gestão de usuários?
-**Q1.2: Notificação de Sintomas**
-O sistema permite relatar todos os tipos de sintomas relevantes para vigilância epidemiológica?
-**Q1.3: Geolocalização e Contexto**
-O sistema captura todas as informações de localização necessárias para vigilância epidemiológica?
+
+
+#### Questão 01: O sistema dos Guardiões da Saúde oferece todas as funcionalidades necessárias para cadastro e gestão de usuários?
+> - **Hipótese 1.1:** O sistema permite criar contas de usuário com todos os campos obrigatórios (nome, Nome da instituição de ensino, matrícula,e-mail e senha) sem erros.
+
+> - **Hipótese 1.2:** O sistema permite recuperação de senha e atualização de dados cadastrais.
+
+#### Questão 02: O sistema dos Guardiões da Saúde  permite relatar todos os tipos de sintomas relevantes para vigilância epidemiológica? 
+
+> - **Hipótese 2.1:** O sistema possui um formulário completo para registro de sintomas recomendados pelo órgão de vigilância
+
+> - **Hipótese 2.2:**  O sistema permite adicionar sintomas adicionais não pré-definidos, garantindo flexibilidade.
+
+
+> - **Hipótese 2.3:** O sistema registra corretamente os sintomas relatados e os associa ao usuário que reportou.
+
+
+#### Questão 03: O sistema dos Guardiões da Saúde  O sistema captura todas as informações de localização necessárias para vigilância epidemiológica?
+> - **Hipótese 3.1:** O sistema solicita permissão do usuário para acesso à localização e só coleta dados com consentimento.
+
+> - **Hipótese 3.2:** O sistema permite registrar localização manual caso o GPS não esteja disponível.
+
+> - **Hipótese 3.3:** O sistema utiliza dados precisos, como município e cidade, para ter uma precisão mais elevada.
+
+
+#### Questão 04: O sistema dos Guardiões da Saúde
+
 
 ### Q2: Corretude Funcional
 As funções de cadastro e reporte processam as entradas, executam as operações e geram os resultados corretos, sem falhas?
