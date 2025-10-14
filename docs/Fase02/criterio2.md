@@ -1,17 +1,24 @@
-# Critério 2: Execução da Avaliação - Adequação Funcional
+# Critério 2: Execução da Avaliação - Adequação Funcional 
 
-## 1. Goal (Objetivo)
+## 1. Goal (Objetivo)<a href="#ref1"><sup>1</sup></a>
 
-**Analisar:** A adequação funcional do aplicativo Guardiões da Saúde  
-**Com o propósito de:** Garantir e melhorar  
-**Com respeito a:** A adequação funcional com foco em sua completude e corretude funcional  
-**Do ponto de vista:** Da equipe de Produto e QA  
-**No contexto:** Da operação contínua do aplicativo  
+| Analisar               | o aplicativo Guardiões da Saúde |
+|------------------------|--------------------------------|
+| Para o propósito de    | Garantir e melhorar            |
+| Com respeito a         | A adequação funcional com foco em sua completude e corretude funcional |
+| Do ponto de vista da   | Da equipe de Produto e QA      |
+| No contexto da         | Da operação contínua do aplicativo |
+
 
 ## 2. Questions (Questões)
 
 ### Q1: Completude Funcional
-O conjunto de funções oferecidas cobre todas as atividades essenciais, conforme especificado?
+**Q1.1: Cadastro e Autenticação**:
+O sistema oferece todas as funcionalidades necessárias para cadastro e gestão de usuários?
+**Q1.2: Notificação de Sintomas**
+O sistema permite relatar todos os tipos de sintomas relevantes para vigilância epidemiológica?
+**Q1.3: Geolocalização e Contexto**
+O sistema captura todas as informações de localização necessárias para vigilância epidemiológica?
 
 ### Q2: Corretude Funcional
 As funções de cadastro e reporte processam as entradas, executam as operações e geram os resultados corretos, sem falhas?
@@ -39,7 +46,7 @@ As funções de cadastro e reporte processam as entradas, executam as operaçõe
 - **Valor Alvo:** ≤ 0.01 (1 bug crítico/alto para cada 100 usuários ativos)
 - **Responsável:** Equipe de QA e Produto
 
-## 4. Resultados da Coleta
+## 4. Resultados da Coleta <a href="#ref2"><sup>2</sup></a>
 
 ### 4.1 Dados Coletados por Métrica
 
@@ -87,12 +94,15 @@ As funções de cadastro e reporte processam as entradas, executam as operaçõe
 
 # Referências Bibliográficas
 
-As informações sobre o propósito da avaliação foram obtidas nas seguintes fontes:
-
 > <a id="ref1"></a> 
+>LC03-GQM-Coleta. Disponível em: https://aprender3.unb.br/pluginfile.php/3230283/mod_folder/content/0/LC03-GQM-Coleta.pdf?forcedownload=1. Acesso em: 14 de outubro de 2025.
+
+<a id="ref2"></a> 
+>LC04-GQM-Interpretacao. Disponível em: https://aprender3.unb.br/pluginfile.php/3230283/mod_folder/content/0/LC04-GQM-Interpretacao.pdf?forcedownload=1. Acesso em: 14 de outubro de 2025
 
 ## Histórico de Versões
 
-| Versão | Data       | Descrição                         | Autor                               | Revisor |
-|:------:|:----------|:----------------------------------|:-------------------------------------|:-------:|
-| 1.0    | 12/10/2025 | Criação do Documento inicial adição de conteúdo | [João Pedro Costa](https://github.com/johnaopedro) |   —    |
+| Versão | Data       | Descrição                                              | Autor                                                                 | Revisor |
+|:------:|:----------|:-------------------------------------------------------|:----------------------------------------------------------------------|:-------:|
+| 1.0    | 12/10/2025 | Criação do documento inicial e adição do conteúdo      | [João Pedro Costa](https://github.com/johnaopedro)                    | —       |
+| 1.1    | 14/10/2025 | Adição de referência bibliográfica e questões| [Fernanda Vaz Duarte dos Santos](https://github.com/)                 | —       |

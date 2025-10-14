@@ -1,12 +1,14 @@
 # Critério 3: Execução da Avaliação - Segurança
 
-## 1. Goal (Objetivo)
+## 1. Goal (Objetivo)<a href="#ref1"><sup>1</sup></a>
 
-**Analisar:** A segurança do aplicativo Guardiões da Saúde  
-**Com o propósito de:** Controlar e garantir  
-**Com respeito a:** A Segurança com foco em confidencialidade e a integridade dos dados de saúde do usuário  
-**Do ponto de vista:** Do DPO (Data Protection Officer) e do Arquiteto de Segurança  
-**No contexto:** Do manuseio de dados em conformidade com a LGPD  
+| Analisar | o aplicativo Guardiões da Saúde |
+|----------|--------------------------------|
+| Para o propósito de | Controlar e garantir |
+| Com respeito a | A segurança com foco em confidencialidade e integridade dos dados de saúde do usuário |
+| Do ponto de vista da | Do DPO (Data Protection Officer) e do Arquiteto de Segurança |
+| No contexto da | Do manuseio de dados em conformidade com a LGPD |
+ 
 
 ## 2. Questions (Questões)
 
@@ -46,7 +48,7 @@ Existem mecanismos eficazes para garantir que os dados de saúde não sejam alte
 - **Valor Alvo:** ≥ 99.9%
 - **Responsável:** Arquiteto de Segurança
 
-## 4. Resultados da Coleta
+## 4. Resultados da Coleta <a href="#ref2"><sup>2</sup></a>
 
 ### 4.1 Dados Coletados por Métrica
 
@@ -100,12 +102,16 @@ Existem mecanismos eficazes para garantir que os dados de saúde não sejam alte
 
 # Referências Bibliográficas
 
-As informações sobre o propósito da avaliação foram obtidas nas seguintes fontes:
-
 > <a id="ref1"></a> 
+>LC03-GQM-Coleta. Disponível em: https://aprender3.unb.br/pluginfile.php/3230283/mod_folder/content/0/LC03-GQM-Coleta.pdf?forcedownload=1. Acesso em: 14 de outubro de 2025.
+
+<a id="ref2"></a> 
+>LC04-GQM-Interpretacao. Disponível em: https://aprender3.unb.br/pluginfile.php/3230283/mod_folder/content/0/LC04-GQM-Interpretacao.pdf?forcedownload=1. Acesso em: 14 de outubro de 2025
+
 
 ## Histórico de Versões
 
-| Versão | Data       | Descrição                         | Autor                               | Revisor |
-|:------:|:----------|:----------------------------------|:-------------------------------------|:-------:|
-| 1.0    | 12/10/2025 | Criação do Documento inicial adição de conteúdo | [João Pedro Costa](https://github.com/johnaopedro) |   —    |
+| Versão | Data       | Descrição                                              | Autor                                                                 | Revisor |
+|:------:|:----------|:-------------------------------------------------------|:----------------------------------------------------------------------|:-------:|
+| 1.0    | 12/10/2025 | Criação do documento inicial e adição do conteúdo      | [João Pedro Costa](https://github.com/johnaopedro)                    | —       |
+| 1.1    | 14/10/2025 | Adição de referência bibliográfica| [Fernanda Vaz Duarte dos Santos](https://github.com/)                 | —       |
