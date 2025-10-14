@@ -4,10 +4,10 @@
 
 | Analisar               | o aplicativo Guardiões da Saúde |
 |------------------------|--------------------------------|
-| Para o propósito de    | Garantir e melhorar            |
+| Para o propósito de    | Avaliar e melhorar            |
 | Com respeito a         | A adequação funcional com foco em sua completude e corretude funcional |
-| Do ponto de vista da   | Da equipe de Produto e QA      |
-| No contexto da         | Da operação contínua do aplicativo |
+| Do ponto de vista da   | Da equipe de 	Equipe de desenvolvimento     |
+| No contexto da         | Disciplina de Qualidade de Software  (FCTE - UnB) |
 
 
 ## 2. Questions (Questões)
@@ -38,7 +38,13 @@
 > - **Hipótese 3.3:** O sistema utiliza dados precisos, como município e cidade, para ter uma precisão mais elevada.
 
 
-#### Questão 04: O sistema dos Guardiões da Saúde
+#### Questão 04: O sistema dos Guardiões da Saúde  mantém consistência entre múltiplos relatos do mesmo usuário ao longo do tempo?
+> - **Hipótese 4.1:** O sistema permite que um mesmo usuário faça múltiplos relatos de sintomas em datas diferentes.
+
+> - **Hipótese 4.2:** O sistema mantém histórico completo de todos os relatos anteriores do usuário, permitindo rastreamento temporal.
+
+> - **Hipótese 4.3:** O sistema impede que usuários editem ou excluam relatos já submetidos, garantindo integridade dos dados históricos.
+
 
 
 ### Q2: Corretude Funcional
@@ -129,4 +135,4 @@ As funções de cadastro e reporte processam as entradas, executam as operaçõe
 | Versão | Data       | Descrição                                              | Autor                                                                 | Revisor |
 |:------:|:----------|:-------------------------------------------------------|:----------------------------------------------------------------------|:-------:|
 | 1.0    | 12/10/2025 | Criação do documento inicial e adição do conteúdo      | [João Pedro Costa](https://github.com/johnaopedro)                    | —       |
-| 1.1    | 14/10/2025 | Adição de referência bibliográfica e questões| [Fernanda Vaz Duarte dos Santos](https://github.com/)                 | —       |
+| 1.1    | 14/10/2025 | Adição de referência bibliográfica, questões e diagrama | [Fernanda Vaz Duarte dos Santos](https://github.com/)                 | —       |
