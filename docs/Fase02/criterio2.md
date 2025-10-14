@@ -13,6 +13,7 @@
 ## 2. Questions (Questões)
 ### Perguntas e Hipóteses de Medição
 
+Para estruturar a análise da Adequação Funcional, o objetivo principal foi decomposto nas seguintes perguntas e hipóteses. Cada hipótese formaliza uma premissa sobre o comportamento atual do sistema, cuja validade será aferida por meio de métricas.
 
 
 #### Questão 01: O sistema dos Guardiões da Saúde oferece todas as funcionalidades necessárias para cadastro e gestão de usuários?

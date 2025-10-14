@@ -12,6 +12,22 @@
 
 ## 2. Questions (Questões)
 
+### Perguntas e Hipóteses de Medição
+Para estruturar a análise da Adequação Funcional, o objetivo principal foi decomposto nas seguintes perguntas e hipóteses. Cada hipótese formaliza uma premissa sobre o comportamento atual do sistema, cuja validade será aferida por meio de métricas.
+
+#### Questão 01: O sistema Guardiões da Saúde protege os dados dos usuários contra acesso não autorizado?
+
+> - **Hipótese 1.1:** O sistema utiliza criptografia  para todas as comunicações entre cliente e servidor, protegendo dados em trânsito.
+
+> - **Hipótese 1.2:** O sistema criptografa dados sensíveis de saúde (sintomas, diagnósticos) no banco de dados, protegendo informações em repouso.
+
+#### Questão 02: O sistema Guardiões da Saúde  segue práticas de desenvolvimento seguro e análise de vulnerabilidades?
+> - **Hipótese 2.1:** O código é periodicamente revisado para identificar vulnerabilidades conhecidas.
+
+> - **Hipótese 2.2:**  O sistema utiliza ferramentas automatizadas de análise de código para detecção de falhas de segurança.
+
+> - **Hipótese 2.3:** O sistema possui processo documentado para tratamento e correção de vulnerabilidades identificadas.
+
 ### Q1: Confidencialidade
 Os dados de saúde dos usuários estão efetivamente protegidos contra acesso não autorizado, tanto em repouso quanto em trânsito?
 
