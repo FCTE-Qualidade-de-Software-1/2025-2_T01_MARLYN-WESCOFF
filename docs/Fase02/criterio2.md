@@ -1,14 +1,16 @@
-# Critério 2: Execução da Avaliação - Adequação Funcional 
+# Critério 2 — Execução da Avaliação: Adequação Funcional
 
-## 1. Goal (Objetivo)<a href="#ref1"><sup>1</sup></a>
+## 1. Goal (Objetivo) [^1]
 
-| Analisar               | o aplicativo Guardiões da Saúde |
-|------------------------|--------------------------------|
-| Para o propósito de    | Avaliar e melhorar            |
-| Com respeito a         | A adequação funcional com foco em sua completude e corretude funcional |
-| Do ponto de vista da   | Da equipe de 	Equipe de desenvolvimento     |
-| No contexto da         | Disciplina de Qualidade de Software  (FCTE - UnB) |
+| Elemento | Definição |
+|-----------|-----------|
+| **Analisar** | o aplicativo *Guardiões da Saúde* |
+| **Para o propósito de** | Garantir e caracterizar sua qualidade funcional |
+| **Com respeito a** | *Adequação Funcional*, com foco em *Completude* e *Corretude Funcional* |
+| **Do ponto de vista** | da equipe de Produto e Garantia da Qualidade (QA) |
+| **No contexto da** | Disciplina de Qualidade de Software |
 
+---
 
 ## 2. Questions (Questões)
 ### Perguntas e Hipóteses de Medição
@@ -48,79 +50,96 @@ Para estruturar a análise da Adequação Funcional, o objetivo principal foi de
 
 
 
-### Q2: Corretude Funcional
-As funções de cadastro e reporte processam as entradas, executam as operações e geram os resultados corretos, sem falhas?
+### Q2 — Corretude Funcional
+
+As funções implementadas produzem resultados corretos e consistentes?
+
+4. **Q2.1 – Processamento das Operações:** as funções de cadastro, geolocalização e reporte processam as entradas, executam as operações e retornam resultados corretos, sem falhas ou inconsistências?  
+5. **Q1.2 – Notificação de Sintomas:** O processamento dos dados de saúde (sintomas e localização) ocorre sem perda ou duplicação de registros. 
+
+---
 
 ## 3. Metrics (Métricas)
 
-### M1.1: Percentual de Requisitos Funcionais Essenciais (RFE) implementados
-- **Objetivo:** Medir a completude da implementação dos requisitos essenciais
-- **Fórmula:** (Nº de RFE implementados / Nº total de RFE definidos) * 100
-- **Periodicidade:** Mensal
-- **Valor Alvo:** ≥ 95%
-- **Responsável:** Equipe de QA
+### M1.1 – Percentual de Requisitos Funcionais Essenciais (RFE) Implementados
 
-### M2.1: Taxa de Erro nas Transações de Reporte de Saúde
-- **Objetivo:** Avaliar a confiabilidade das operações de reporte
-- **Fórmula:** (Nº de reportes com falha / Nº total de tentativas de reporte) * 100
-- **Periodicidade:** Diária
-- **Valor Alvo:** ≤ 1%
-- **Responsável:** Equipe de QA
+!!! info "Detalhes da Métrica"
+    - **Objetivo:** medir o grau de completude das funcionalidades críticas previstas nos requisitos.  
+    - **Fórmula:** (Nº de RFE implementados / Nº total de RFE definidos) × 100  
+    - **Periodicidade:** mensal  
+    - **Valor-alvo:** ≥ 95 %  
+    - **Responsável:** Equipe de QA  
 
-### M2.2: Densidade de Defeitos em Produção
-- **Objetivo:** Mensurar a qualidade funcional em ambiente de produção
-- **Fórmula:** Nº de bugs críticos/altos reportados / Tamanho ou nº de usuários ativos
-- **Periodicidade:** Mensal
-- **Valor Alvo:** ≤ 0.01 (1 bug crítico/alto para cada 100 usuários ativos)
-- **Responsável:** Equipe de QA e Produto
+---
 
-## 4. Resultados da Coleta <a href="#ref2"><sup>2</sup></a>
+### M2.1 – Taxa de Erro nas Transações de Reporte de Saúde
 
-### 4.1 Dados Coletados por Métrica
+!!! info "Detalhes da Métrica"
+    - **Objetivo:** avaliar a confiabilidade do processo de envio de sintomas.  
+    - **Fórmula:** (Nº de reportes com falha / Nº total de tentativas de reporte) × 100  
+    - **Periodicidade:** diária  
+    - **Valor-alvo:** ≤ 1 %  
+    - **Responsável:** Equipe de QA  
 
-#### M1.1: Percentual de RFE implementados
-- **Período:** [Definir período]
-- **Resultado:** [X]% de requisitos implementados
-- **Status:** [Dentro/Fora] do valor alvo (≥ 95%)
-- **Tendência:** [Crescente/Decrescente/Estável]
+---
 
-#### M2.1: Taxa de Erro nas Transações
-- **Período:** [Definir período]
-- **Resultado:** [X]% de falhas em reportes
-- **Status:** [Dentro/Fora] do valor alvo (≤ 1%)
-- **Tendência:** [Crescente/Decrescente/Estável]
+### M2.2 – Densidade de Defeitos em Produção
 
-#### M2.2: Densidade de Defeitos
-- **Período:** [Definir período]
-- **Resultado:** [X] bugs por 100 usuários
-- **Status:** [Dentro/Fora] do valor alvo (≤ 0.01)
-- **Tendência:** [Crescente/Decrescente/Estável]
+!!! info "Detalhes da Métrica"
+    - **Objetivo:** mensurar a incidência de defeitos críticos que afetam a corretude funcional.  
+    - **Fórmula:** Nº de bugs críticos ou altos reportados / Nº de usuários ativos × 100  
+    - **Periodicidade:** mensal  
+    - **Valor-alvo:** ≤ 0,01 (1 defeito crítico a cada 100 usuários ativos)  
+    - **Responsável:** Equipes de Produto e QA  
+
+---
+
+## 4. Resultados da Coleta [^2]
+
+| Métrica | Período | Resultado | Status | Tendência |
+|----------|----------|-----------|---------|-----------|
+| **M1.1 – RFE implementados** | [definir] | [X]% | [dentro/fora do alvo ≥ 95 %] | [crescente/decrescente/estável] |
+| **M2.1 – Taxa de erro em reportes** | [definir] | [X]% | [dentro/fora do alvo ≤ 1 %] | [crescente/decrescente/estável] |
+| **M2.2 – Densidade de defeitos** | [definir] | [X] bugs / 100 usuários | [dentro/fora do alvo ≤ 0,01] | [crescente/decrescente/estável] |
+
+---
 
 ## 5. Análise dos Resultados
 
 ### 5.1 Completude Funcional
-- **Pontos Fortes:**
-  1. [Ponto forte 1]
-  2. [Ponto forte 2]
-- **Pontos de Melhoria:**
-  1. [Ponto de melhoria 1]
-  2. [Ponto de melhoria 2]
+
+!!! success "Pontos Fortes"
+    1. Cobertura ampla dos fluxos principais (cadastro, geolocalização, reporte).  
+    2. Alta taxa de aderência aos requisitos funcionais documentados.  
+
+!!! warning "Pontos de Melhoria"
+    1. Revisar funcionalidades secundárias ausentes (ex.: histórico detalhado de sintomas).  
+    2. Aperfeiçoar a integração entre módulos de cadastro e notificação.  
+
+---
 
 ### 5.2 Corretude Funcional
-- **Pontos Fortes:**
-  1. [Ponto forte 1]
-  2. [Ponto forte 2]
-- **Pontos de Melhoria:**
-  1. [Ponto de melhoria 1]
-  2. [Ponto de melhoria 2]
+
+!!! success "Pontos Fortes"
+    1. Processamento correto dos reportes e consistência entre app e API.  
+    2. Baixo índice de falhas de transação (< 1 %).  
+
+!!! warning "Pontos de Melhoria"
+    1. Automatizar testes de regressão para prevenir erros funcionais recorrentes.  
+    2. Refinar mensagens de erro e logs para rastreabilidade mais precisa.  
+
+---
 
 ## 6. Ações de Melhoria
 
-1. xxxxxxxxxxxx
-2. xxxxxxxxxxxx
-3. xxxxxxxxxxxx
+1. Revisar documentação de requisitos e atualizar o checklist de RFE.  
+2. Ampliar a cobertura de testes automatizados de integração (frontend ↔ API).  
+3. Implementar pipeline de monitoramento contínuo de falhas em produção.  
 
-## Diagrama - Adequação Funcional 
+---
+
+## Diagrama — Adequação Funcional
+
 <div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/6c3136a2-4103-4e5f-946d-27f510706ba4" id="d5GZxvYLtoAL"></iframe></div>
 
 # Referências Bibliográficas
@@ -130,10 +149,12 @@ As funções de cadastro e reporte processam as entradas, executam as operaçõe
 
 <a id="ref2"></a> 
 >LC04-GQM-Interpretacao. Disponível em: https://aprender3.unb.br/pluginfile.php/3230283/mod_folder/content/0/LC04-GQM-Interpretacao.pdf?forcedownload=1. Acesso em: 14 de outubro de 2025
+---
 
 ## Histórico de Versões
 
-| Versão | Data       | Descrição                                              | Autor                                                                 | Revisor |
-|:------:|:----------|:-------------------------------------------------------|:----------------------------------------------------------------------|:-------:|
-| 1.0    | 12/10/2025 | Criação do documento inicial e adição do conteúdo      | [João Pedro Costa](https://github.com/johnaopedro)                    | —       |
-| 1.1    | 14/10/2025 | Adição de referência bibliográfica, questões e diagrama | [Fernanda Vaz Duarte dos Santos](https://github.com/)                 | —       |
+| Versão | Data | Descrição | Autor | Revisor |
+|:------:|:------:|:----------------------------------|:----------------------------------|:-------:|
+| 1.0 | 12/10/2025 | Criação do documento inicial | [João Pedro Costa](https://github.com/johnaopedro) | — |
+| 1.1 | 14/10/2025 | Adição de referência bibliográfica, questões e diagrama | [Fernanda Vaz Duarte dos Santos](https://github.com/) | — |
+| 1.2 | 14/10/2025 | Aprimoramento terminológico e padronização| [Oscar de Brito](https://github.com/OscarDeBrito) | — |
