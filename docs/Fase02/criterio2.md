@@ -92,6 +92,9 @@ As funções de cadastro e reporte processam as entradas, executam as operaçõe
 2. xxxxxxxxxxxx
 3. xxxxxxxxxxxx
 
+## Diagrama - Adequação Funcional 
+<div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/6c3136a2-4103-4e5f-946d-27f510706ba4" id="d5GZxvYLtoAL"></iframe></div>
+
 # Referências Bibliográficas
 
 > <a id="ref1"></a> 

@@ -100,6 +100,10 @@ Existem mecanismos eficazes para garantir que os dados de saúde não sejam alte
 2. xxxxxxxxxxxx
 3. xxxxxxxxxxxx
 
+## Diagrama -  Segurança
+
+<div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/48984a30-effd-49b7-8f39-3fb6ac7ff069" id="l-GZK.nXlew7"></iframe></div>
+
 # Referências Bibliográficas
 
 > <a id="ref1"></a> 
