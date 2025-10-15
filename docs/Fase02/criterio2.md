@@ -17,8 +17,13 @@
 
 Para estruturar a análise da Adequação Funcional, o objetivo principal foi decomposto nas seguintes perguntas e hipóteses. Cada hipótese formaliza uma premissa sobre o comportamento atual do sistema, cuja validade será aferida por meio de métricas.
 
+### Q1 — Completude Funcional
+
+o sistema implementa todas as funcionalidades necessárias para atender aos requisitos.
+
 
 #### Questão 01: O sistema dos Guardiões da Saúde oferece todas as funcionalidades necessárias para cadastro e gestão de usuários?
+
 > - **Hipótese 1.1:** O sistema permite criar contas de usuário com todos os campos obrigatórios (nome, Nome da instituição de ensino, matrícula,e-mail e senha) sem erros.
 
 > - **Hipótese 1.2:** O sistema permite recuperação de senha e atualização de dados cadastrais.
@@ -29,32 +34,11 @@ Para estruturar a análise da Adequação Funcional, o objetivo principal foi de
 
 > - **Hipótese 2.2:**  O sistema permite adicionar sintomas adicionais não pré-definidos, garantindo flexibilidade.
 
-
-> - **Hipótese 2.3:** O sistema registra corretamente os sintomas relatados e os associa ao usuário que reportou.
-
-
-#### Questão 03: O sistema dos Guardiões da Saúde  O sistema captura todas as informações de localização necessárias para vigilância epidemiológica?
-> - **Hipótese 3.1:** O sistema solicita permissão do usuário para acesso à localização e só coleta dados com consentimento.
-
-> - **Hipótese 3.2:** O sistema permite registrar localização manual caso o GPS não esteja disponível.
-
-> - **Hipótese 3.3:** O sistema utiliza dados precisos, como município e cidade, para ter uma precisão mais elevada.
-
-
-#### Questão 04: O sistema dos Guardiões da Saúde  mantém consistência entre múltiplos relatos do mesmo usuário ao longo do tempo?
-> - **Hipótese 4.1:** O sistema permite que um mesmo usuário faça múltiplos relatos de sintomas em datas diferentes.
-
-> - **Hipótese 4.2:** O sistema mantém histórico completo de todos os relatos anteriores do usuário, permitindo rastreamento temporal.
-
-> - **Hipótese 4.3:** O sistema impede que usuários editem ou excluam relatos já submetidos, garantindo integridade dos dados históricos.
-
-
-
 ### Q2 — Corretude Funcional
 
 As funções implementadas produzem resultados corretos e consistentes?
 
-4. **Q2.1 – Processamento das Operações:** as funções de cadastro, geolocalização e reporte processam as entradas, executam as operações e retornam resultados corretos, sem falhas ou inconsistências?  
+4. **Q1.1 – Processamento das Operações:** as funções de cadastro, geolocalização e reporte processam as entradas, executam as operações e retornam resultados corretos, sem falhas ou inconsistências?  
 5. **Q1.2 – Notificação de Sintomas:** O processamento dos dados de saúde (sintomas e localização) ocorre sem perda ou duplicação de registros. 
 
 ---
