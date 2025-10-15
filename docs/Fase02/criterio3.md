@@ -2,107 +2,89 @@
 
 ## 1. Goal (Objetivo)<a href="#ref1"><sup>1</sup></a>
 
+
 | Analisar | o aplicativo Guardiões da Saúde |
 |----------|--------------------------------|
 | Para o propósito de |Avaliar e melhorar |
 | Com respeito a | A segurança com foco em confidencialidade e integridade dos dados de saúde do usuário |
 | Do ponto de vista da | 	Da equipe de Equipe de desenvolvimento |
 | No contexto da |	Disciplina de Qualidade de Software (FCTE - UnB) |
+
+*Tabela 2 — Critério 3: Execução da Avaliação - Segurança*
+
+
+## 2. Questions (Questões) e 3. Metrics (Métricas)
+
+### Confidencialidade
+
+**Q1:** Os dados de saúde dos usuários estão efetivamente protegidos contra acesso não autorizado, tanto em repouso quanto em trânsito?
+
+**Hipóteses:**
+- **1:** O sistema utiliza criptografia para todas as comunicações entre cliente e servidor, protegendo dados em trânsito.
+
+**Q2:** O sistema segue práticas de desenvolvimento seguro e análise de vulnerabilidades?
+
+**Hipóteses:**
+- **1:** O código é periodicamente revisado para identificar vulnerabilidades conhecidas.
+- **2:** O sistema utiliza ferramentas automatizadas de análise de código para detecção de falhas de segurança.
+- **3:** Existe um processo documentado para tratamento e correção de vulnerabilidades identificadas.
+
+**Métricas:**
+
+- **1: Utilização de comunicação utiliza HTTPS**
+  - **Objetivo:** Verificar se todas as comunicações entre cliente e servidor utilizam HTTPS/TLS para garantir a proteção dos dados em trânsito.
+  - **Método de coleta:** Verificar a configuração do servidor incluindo: Certificados SSL/TLS válidos. Protocolos suportados (ex.: TLS 1.2 ou superior).
+  - <!--Não foi possível verificar devido ao código do sistema não ter caminhos públicos para conferir se utiliza comunicação HTTPS-->
  
 
-## 2. Questions (Questões)
+- **2: Documentação para tratamento e correção de vulnerabilidades identificadas**
+  - **Objetivo:** Verificar o processo de documentação.
+  - **Método de coleta:** Verificar nº de pull requests ou issues com a label fix.
 
-### Perguntas e Hipóteses de Medição
-Para estruturar a análise da Adequação Funcional, o objetivo principal foi decomposto nas seguintes perguntas e hipóteses. Cada hipótese formaliza uma premissa sobre o comportamento atual do sistema, cuja validade será aferida por meio de métricas.
+---
 
+### Integridade
 
-### Q1: Confidencialidade
-Os dados de saúde dos usuários estão efetivamente protegidos contra acesso não autorizado, tanto em repouso quanto em trânsito?
+**Q1:** Os dados de saúde dos usuários estão efetivamente protegidos contra alteração ou corrupção não autorizada?
 
-### Q2: Integridade
-Existem mecanismos eficazes para garantir que os dados de saúde não sejam alterados ou corrompidos de forma não autorizada?
+**Hipóteses:**
+- **1:** Mecanismos de validação e verificação de integridade detectam alterações não autorizadas.
+- **2:** Qualquer modificação nos dados críticos gera alerta imediato.
 
-## 3. Metrics (Métricas)
+**Q2:** Existem mecanismos eficazes para garantir a consistência e rastreabilidade dos dados armazenados no sistema?
 
-### M1.1: Número de Incidentes de Acesso Indevido
-- **Objetivo:** Monitorar violações de segurança
-- **Fórmula:** Contagem de incidentes confirmados por mês
-- **Periodicidade:** Mensal
-- **Valor Alvo:** 0 incidentes
-- **Responsável:** DPO e Equipe de Segurança
+**Hipóteses:**
+- **1:** Todas as operações críticas são registradas em logs de auditoria.
+- **2:** O histórico de alterações permite rastrear e restaurar dados, se necessário.
 
-### M1.2: Conformidade com Padrões de Criptografia
-- **Objetivo:** Garantir a proteção dos dados
-- **Fórmula:** (Nº de requisitos de criptografia atendidos / Total de requisitos definidos) * 100
-- **Periodicidade:** Trimestral
-- **Valor Alvo:** 100%
-- **Responsável:** Arquiteto de Segurança
+**Métricas:**
 
-### M2.1: Alertas de Falha na Verificação de Integridade
-- **Objetivo:** Identificar tentativas de alteração não autorizada
-- **Fórmula:** Número total de alertas de integridade por mês
-- **Periodicidade:** Mensal
-- **Valor Alvo:** ≤ 5 alertas
-- **Responsável:** Equipe de Segurança
+- **1: Alertas de Falha na Verificação de Integridade**
+  - **Objetivo:** Garantir que qualquer modificação não autorizada em dados críticos de saúde seja identificada e gere um alerta imediato, assegurando a integridade das informações.
+  - **Método de coleta:** Verificar a existência de mecanismos de verificação de integridade (ex.: checksums, hash, controle de versão ou trilhas de auditoria).
 
-### M2.2: Cobertura de Logs de Auditoria
-- **Objetivo:** Assegurar rastreabilidade das operações críticas
-- **Fórmula:** (Nº de transações críticas com log / Total de transações críticas) * 100
-- **Periodicidade:** Semanal
-- **Valor Alvo:** ≥ 99.9%
-- **Responsável:** Arquiteto de Segurança
+- **2: Consistência e rastreabilidade dos dados armazenados no sistema**
+  - **Objetivo:** Assegurar rastreabilidade das operações críticas.
+  - **Método de coleta:** Verificar a existência de operações de log no código em operações críticas.
 
 ## 4. Resultados da Coleta <a href="#ref2"><sup>2</sup></a>
 
 ### 4.1 Dados Coletados por Métrica
 
-#### M1.1: Incidentes de Acesso Indevido
-- **Período:** [Definir período]
-- **Resultado:** [X] incidentes no mês
-- **Status:** [Dentro/Fora] do valor alvo (0 incidentes)
-- **Tendência:** [Crescente/Decrescente/Estável]
-
-#### M1.2: Conformidade com Criptografia
-- **Período:** [Definir período]
-- **Resultado:** [X]% de conformidade
-- **Status:** [Dentro/Fora] do valor alvo (100%)
-- **Tendência:** [Crescente/Decrescente/Estável]
-
-#### M2.1: Alertas de Integridade
-- **Período:** [Definir período]
-- **Resultado:** [X] alertas no mês
-- **Status:** [Dentro/Fora] do valor alvo (≤ 5)
-- **Tendência:** [Crescente/Decrescente/Estável]
-
-#### M2.2: Cobertura de Logs
-- **Período:** [Definir período]
-- **Resultado:** [X]% de cobertura
-- **Status:** [Dentro/Fora] do valor alvo (≥ 99.9%)
-- **Tendência:** [Crescente/Decrescente/Estável]
 
 ## 5. Análise dos Resultados
 
 ### 5.1 Confidencialidade
 - **Pontos Fortes:**
-  1. [Ponto forte 1]
-  2. [Ponto forte 2]
 - **Pontos de Melhoria:**
-  1. [Ponto de melhoria 1]
-  2. [Ponto de melhoria 2]
+  
 
 ### 5.2 Integridade
 - **Pontos Fortes:**
-  1. [Ponto forte 1]
-  2. [Ponto forte 2]
 - **Pontos de Melhoria:**
-  1. [Ponto de melhoria 1]
-  2. [Ponto de melhoria 2]
+
 
 ## 6. Ações de Melhoria
-
-1. xxxxxxxxxxxx
-2. xxxxxxxxxxxx
-3. xxxxxxxxxxxx
 
 ## Diagrama -  Segurança
 
