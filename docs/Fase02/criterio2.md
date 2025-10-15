@@ -1,6 +1,6 @@
 # Critério 2 — Execução da Avaliação: Adequação Funcional
 
-## 1. Goal (Objetivo) [^1]
+## 1. Goal (Objetivo) <a href="#ref1"><sup>1</sup></a>
 
 | Elemento | Definição |
 |-----------|-----------|
@@ -17,64 +17,96 @@
 
 Para estruturar a análise da Adequação Funcional, o objetivo principal foi decomposto nas seguintes perguntas e hipóteses. Cada hipótese formaliza uma premissa sobre o comportamento atual do sistema, cuja validade será aferida por meio de métricas.
 
-### Q1 — Completude Funcional
+## Q1 — Completude Funcional
 
-o sistema implementa todas as funcionalidades necessárias para atender aos requisitos.
-
-
-#### Questão 01: O sistema dos Guardiões da Saúde oferece todas as funcionalidades necessárias para cadastro e gestão de usuários?
+#### Questão 01: O sistema  Guardiões da Saúde oferece todas as funcionalidades necessárias para cadastro e gestão de usuários?
 
 > - **Hipótese 1.1:** O sistema permite criar contas de usuário com todos os campos obrigatórios (nome, Nome da instituição de ensino, matrícula,e-mail e senha) sem erros.
 
 > - **Hipótese 1.2:** O sistema permite recuperação de senha e atualização de dados cadastrais.
 
-#### Questão 02: O sistema dos Guardiões da Saúde  permite relatar todos os tipos de sintomas relevantes para vigilância epidemiológica? 
 
-> - **Hipótese 2.1:** O sistema possui um formulário completo para registro de sintomas recomendados pelo órgão de vigilância
+## Q2 — Corretude Funcional
 
-> - **Hipótese 2.2:**  O sistema permite adicionar sintomas adicionais não pré-definidos, garantindo flexibilidade.
+#### Questão 02: As funções de cadastro, geolocalização e reporte processam as entradas, executam as operações e retornam resultados corretos, sem falhas ou inconsistências?  
 
-### Q2 — Corretude Funcional
+> - **Hipótese 2.1:** As funções de cadastro, geolocalização e reporte de sintomas executam todas as etapas do fluxo de processamento, sem falhas críticas ou interrupções que impeçam a conclusão das operações.
 
-As funções implementadas produzem resultados corretos e consistentes?
-
-4. **Q1.1 – Processamento das Operações:** as funções de cadastro, geolocalização e reporte processam as entradas, executam as operações e retornam resultados corretos, sem falhas ou inconsistências?  
-5. **Q1.2 – Notificação de Sintomas:** O processamento dos dados de saúde (sintomas e localização) ocorre sem perda ou duplicação de registros. 
+> - **Hipótese 2.2:** O processamento dos dados de saúde (sintomas e localização) ocorre sem perda ou duplicação de registros. 
 
 ---
 
 ## 3. Metrics (Métricas)
 
-### M1.1 – Percentual de Requisitos Funcionais Essenciais (RFE) Implementados
+## Q1 — Completude Funcional
+### M1.1 –  Questão 01:  Hipótese 1.1
 
 !!! info "Detalhes da Métrica"
-    - **Objetivo:** medir o grau de completude das funcionalidades críticas previstas nos requisitos.  
-    - **Fórmula:** (Nº de RFE implementados / Nº total de RFE definidos) × 100  
-    - **Periodicidade:** mensal  
-    - **Valor-alvo:** ≥ 95 %  
-    - **Responsável:** Equipe de QA  
+    - **Objetivo:** medir a taxa de sucesso no Cadastro Completo
+    - **Fórmula:**  (Número de cadastros concluídos com sucesso / Total de tentativas de cadastro com todos os campos preenchidos) × 100
+    - **Periodicidade:**  semanal 
+    - **Valor-alvo:** ≥ 95% 
+    - **Coleta:**
+    
+            1. Analisar os cadastros concluídos com sucesso (contas criadas sem erros).
+
+    - **Responsável:** Equipe de  Desenvolvimento
 
 ---
 
-### M2.1 – Taxa de Erro nas Transações de Reporte de Saúde
+### M1.2 – Questão 01: Hipótese 1.2
+!!! info "Detalhes da Métrica"
+    - **Objetivo:** medir o tempo de   
+    - **Fórmula:**: Σ (tempo entre solicitação e conclusão) / Nº de recuperações
+    - **Periodicidade:**  Diario
+    - **Valor-alvo:** ≤ 5 minutos
+    - **Coleta:** 
+
+            1. Realizar 3 tentativas de recuperação de senha por dia
+            2. Registrar o tempo desde o clique em "Esqueci minha senha" até a conclusão da redefinição
+            3. Documentar em planilha: data, hora de início, hora de conclusão, tempo total (minutos)
+    - **Responsável:** Equipe de  Desenvolvimento
+
+---
+  
+## Q2 — Corretude  Funcional
+
+### M2.1 – Questão 02: Hipótese 2.1
 
 !!! info "Detalhes da Métrica"
-    - **Objetivo:** avaliar a confiabilidade do processo de envio de sintomas.  
-    - **Fórmula:** (Nº de reportes com falha / Nº total de tentativas de reporte) × 100  
+    - **Objetivo:** avaliar a corretude do sistema
+    - **Fórmula:**(Nº de operações concluídas sem falhas críticas / Nº total de operações) × 100
     - **Periodicidade:** diária  
-    - **Valor-alvo:** ≤ 1 %  
-    - **Responsável:** Equipe de QA  
+    - **Valor-alvo:** ≥ 98%
+    - **Coleta:** 
+
+            1. Executar diariamente cada funcionalidade:
+                - Cadastro de usuário (2 tentativas)
+                - Geolocalização (2 tentativas)
+                - Reporte de sintomas (2 tentativas)
+            2. Registrar resultado de cada operação: sucesso completo ou falha crítica
+            3. Falha crítica = operação não concluída (erro, travamento, timeout)
+            4. Documentar em planilha: data, funcionalidade testada, resultado, observações
+    - **Responsável:** Equipe de  Desenvolvimento  
 
 ---
 
-### M2.2 – Densidade de Defeitos em Produção
+### M2.2 – Questão 02: Hipótese 2.2
+
 
 !!! info "Detalhes da Métrica"
-    - **Objetivo:** mensurar a incidência de defeitos críticos que afetam a corretude funcional.  
-    - **Fórmula:** Nº de bugs críticos ou altos reportados / Nº de usuários ativos × 100  
-    - **Periodicidade:** mensal  
-    - **Valor-alvo:** ≤ 0,01 (1 defeito crítico a cada 100 usuários ativos)  
-    - **Responsável:** Equipes de Produto e QA  
+    - **Objetivo:**  avaliar a corretude do sistema
+    - **Fórmula:** (Nº de registros perdidos / Nº total de registros enviados) × 100
+    - **Periodicidade:** diária 
+    - **Valor-alvo:**  0% 
+    - **Coleta:** 
+
+            1. Acessar relatório com:
+            - Total de registros recebidos pela API
+            - Total de registros gravados no banco de dados
+            - Diferença = registros perdidos
+            2. Calcular a métrica com base nos dados fornecidos
+    - **Responsável:** Equipes de Desenvolvimento
 
 ---
 
