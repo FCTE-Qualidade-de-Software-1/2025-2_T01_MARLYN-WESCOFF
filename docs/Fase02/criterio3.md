@@ -25,6 +25,7 @@
 **Q2:** O sistema segue práticas de desenvolvimento seguro e análise de vulnerabilidades?
 
 **Hipóteses:**
+
   - **1:** O código é periodicamente revisado para identificar vulnerabilidades conhecidas.
   - **2:** O sistema utiliza ferramentas automatizadas de análise de código para detecção de falhas de segurança.
   - **3:** Existe um processo documentado para tratamento e correção de vulnerabilidades identificadas.
