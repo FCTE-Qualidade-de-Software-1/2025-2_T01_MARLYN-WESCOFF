@@ -105,3 +105,4 @@
 |:------:|:----------|:-------------------------------------------------------|:----------------------------------------------------------------------|:-------:|
 | 1.0    | 12/10/2025 | Criação do documento inicial e adição do conteúdo      | [João Pedro Costa](https://github.com/johnaopedro)                    | —       |
 | 1.1    | 14/10/2025 | Adição de referência bibliográfica| [Fernanda Vaz Duarte dos Santos](https://github.com/)                 | —       |
+| 1.2    | 14/10/2025 | AAdição de métricas| [Marcella S Anderle](https://github.com/marcellaanderle)                 | —       |
