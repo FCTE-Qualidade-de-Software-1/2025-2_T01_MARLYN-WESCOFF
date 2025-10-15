@@ -31,6 +31,13 @@
   - **2:** O sistema utiliza ferramentas automatizadas de análise de código para detecção de falhas de segurança.
   - **3:** Existe um processo documentado para tratamento e correção de vulnerabilidades identificadas.
 
+**Q3:** Os dados sensíveis armazenados localmente no dispositivo (cache, preferências) estão devidamente criptografados?
+
+**Hipóteses:**
+
+  - **1:** Nenhum dado pessoal é armazenado em texto claro.
+  - **2:** O app utiliza criptografia AES ou Android Keystore.
+
 **Métricas:**
 
 - **1: Utilização de comunicação utiliza HTTPS**
@@ -42,6 +49,38 @@
 - **2: Documentação para tratamento e correção de vulnerabilidades identificadas**
   - **Objetivo:** Verificar o processo de documentação.
   - **Método de coleta:** Verificar nº de pull requests ou issues com a label fix.
+
+---
+
+### 3.1: – Armazenamento Local Seguro
+!!! info "Detalhes da Métrica"
+    - **Objetivo:** medir o percentual de dados criptografados 
+    - **Fórmula:**: Nº de variáveis sensíveis criptografadas / Nº total de variáveis sensíveis
+    - **Periodicidade:**  semanal
+    - **Valor-alvo:** ≥ 100%
+    - **Coleta:** 
+
+            - 1. Mapear todas as variáveis sensíveis armazenadas localmente (como tokens, credenciais, informações de saúde).
+            - 2. Verificar, por meio de análise de código e inspeção em tempo de execução, se cada variável está protegida por algoritmo de criptografia.
+            - 3. Documentar a quantidade total de variáveis e quantas estão devidamente criptografadas.
+
+    - **Responsável:** Equipe de  Desenvolvimento
+
+---
+
+### 3.2: – Armazenamento Local Seguro
+!!! info "Detalhes da Métrica"
+    - **Objetivo:** medir o tempo médio de descriptografia 
+    - **Fórmula:**: média do tempo para descriptografar dados locais
+    - **Periodicidade:**  semanal
+    - **Valor-alvo:** ≤ 1s
+    - **Coleta:** 
+
+            - 1. Selecionar um conjunto representativo de dados criptografados (como tokens, dados de sessão, preferências locais).
+            - 2. Medir o tempo de execução das rotinas de descriptografia por meio de ferramentas de profiling ou logs de desempenho.
+            - 3. Calcular a média dos tempos obtidos durante múltiplas execuções (mínimo de 10 amostras).
+
+    - **Responsável:** Equipe de  Desenvolvimento
 
 ---
 
@@ -79,9 +118,12 @@
 ## 5. Análise dos Resultados
 
 ### 5.1 Confidencialidade
-- **Pontos Fortes:**
+- **Pontos Fortes:** 
+      - 1. O controle de acesso e a criptografia de dados estão bem implementados, o que é positivo.
+      
 - **Pontos de Melhoria:**
-  
+      - 1. Os logs devem ser revisados para eliminar qualquer dado sensível armazenado inadvertidamente.
+      - 2. Criar módulo centralizado de logs com anonimização e retenção limitada.
 
 ### 5.2 Integridade
 - **Pontos Fortes:**
@@ -89,6 +131,10 @@
 
 
 ## 6. Ações de Melhoria
+
+        - 1. Revisar os logs com a intenção de eliminar dados sensíveis armazenados de forma indevida;
+        - 2.  Implementar uma ferramenta (SAST - Static Application Security Testing) para varredura contínua.
+
 
 ## Diagrama -  Segurança
 
@@ -110,3 +156,4 @@
 | 1.0    | 12/10/2025 | Criação do documento inicial e adição do conteúdo      | [João Pedro Costa](https://github.com/johnaopedro)                    | —       |
 | 1.1    | 14/10/2025 | Adição de referência bibliográfica| [Fernanda Vaz Duarte dos Santos](https://github.com/)                 | —       |
 | 1.2    | 14/10/2025 | Adição de métricas| [Marcella S Anderle](https://github.com/marcellaanderle)                 | —       |
+| 1.3    | 15/10/2025 | Adição de métricas e Correção| [Vinícius Rufino](https://github.com/RufinoVfR)                 | —       |
