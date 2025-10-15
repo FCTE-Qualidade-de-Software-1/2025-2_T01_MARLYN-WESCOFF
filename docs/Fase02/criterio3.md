@@ -25,16 +25,16 @@
 **Q2:** O sistema segue práticas de desenvolvimento seguro e análise de vulnerabilidades?
 
 **Hipóteses:**
-- **1:** O código é periodicamente revisado para identificar vulnerabilidades conhecidas.
-- **2:** O sistema utiliza ferramentas automatizadas de análise de código para detecção de falhas de segurança.
-- **3:** Existe um processo documentado para tratamento e correção de vulnerabilidades identificadas.
+  - **1:** O código é periodicamente revisado para identificar vulnerabilidades conhecidas.
+  - **2:** O sistema utiliza ferramentas automatizadas de análise de código para detecção de falhas de segurança.
+  - **3:** Existe um processo documentado para tratamento e correção de vulnerabilidades identificadas.
 
 **Métricas:**
 
 - **1: Utilização de comunicação utiliza HTTPS**
   - **Objetivo:** Verificar se todas as comunicações entre cliente e servidor utilizam HTTPS/TLS para garantir a proteção dos dados em trânsito.
   - **Método de coleta:** Verificar a configuração do servidor incluindo: Certificados SSL/TLS válidos. Protocolos suportados (ex.: TLS 1.2 ou superior).
-  - <!--Não foi possível verificar devido ao código do sistema não ter caminhos públicos para conferir se utiliza comunicação HTTPS-->
+  <!--Não foi possível verificar devido ao código do sistema não ter caminhos públicos para conferir se utiliza comunicação HTTPS-->
  
 
 - **2: Documentação para tratamento e correção de vulnerabilidades identificadas**
@@ -105,4 +105,4 @@
 |:------:|:----------|:-------------------------------------------------------|:----------------------------------------------------------------------|:-------:|
 | 1.0    | 12/10/2025 | Criação do documento inicial e adição do conteúdo      | [João Pedro Costa](https://github.com/johnaopedro)                    | —       |
 | 1.1    | 14/10/2025 | Adição de referência bibliográfica| [Fernanda Vaz Duarte dos Santos](https://github.com/)                 | —       |
-| 1.2    | 14/10/2025 | AAdição de métricas| [Marcella S Anderle](https://github.com/marcellaanderle)                 | —       |
+| 1.2    | 14/10/2025 | Adição de métricas| [Marcella S Anderle](https://github.com/marcellaanderle)                 | —       |
