@@ -20,6 +20,7 @@
 **Q1:** Os dados de saúde dos usuários estão efetivamente protegidos contra acesso não autorizado, tanto em repouso quanto em trânsito?
 
 **Hipóteses:**
+
 - **1:** O sistema utiliza criptografia para todas as comunicações entre cliente e servidor, protegendo dados em trânsito.
 
 **Q2:** O sistema segue práticas de desenvolvimento seguro e análise de vulnerabilidades?
@@ -49,14 +50,16 @@
 **Q1:** Os dados de saúde dos usuários estão efetivamente protegidos contra alteração ou corrupção não autorizada?
 
 **Hipóteses:**
-- **1:** Mecanismos de validação e verificação de integridade detectam alterações não autorizadas.
-- **2:** Qualquer modificação nos dados críticos gera alerta imediato.
+
+  - **1:** Mecanismos de validação e verificação de integridade detectam alterações não autorizadas.
+  - **2:** Qualquer modificação nos dados críticos gera alerta imediato.
 
 **Q2:** Existem mecanismos eficazes para garantir a consistência e rastreabilidade dos dados armazenados no sistema?
 
 **Hipóteses:**
-- **1:** Todas as operações críticas são registradas em logs de auditoria.
-- **2:** O histórico de alterações permite rastrear e restaurar dados, se necessário.
+
+  - **1:** Todas as operações críticas são registradas em logs de auditoria.
+  - **2:** O histórico de alterações permite rastrear e restaurar dados, se necessário.
 
 **Métricas:**
 
