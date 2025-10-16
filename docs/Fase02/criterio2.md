@@ -34,15 +34,6 @@ Para estruturar a análise da Adequação Funcional, o objetivo principal foi de
 
 > - **Hipótese 2.2:** O processamento dos dados de saúde (sintomas e localização) ocorre sem perda ou duplicação de registros. 
 
-
-## Q3 – Usabilidade Funcional
-
-### Questão 03: As funcionalidades principais são acessíveis e funcionam corretamente em diferentes dispositivos Android (telas pequenas, tablets, etc.)?
-
-> - **Hipótese 3.1:** A interface se adapta corretamente a diferentes resoluções.
-
-> - **Hipótese .2:** As funções principais (login, envio de dados, relatório) permanecem acessíveis sem travamentos.
-
 ---
 
 ## 3. Metrics (Métricas)
@@ -119,42 +110,6 @@ Para estruturar a análise da Adequação Funcional, o objetivo principal foi de
 
 ---
 
-## Q3 — Usabilidade Funcional
-### M3.1 –  Questão 03:  Hipótese 3.1
-
-!!! info "Detalhes da Métrica"
-    - **Objetivo:** medir a taxa de sucesso de Interação Multiplataforma
-    - **Fórmula:**  (Nº de interações concluídas sem falhas / Nº total de tentativas) × 100
-    - **Periodicidade:**  mensal 
-    - **Valor-alvo:** ≥ 97% 
-    - **Coleta:**
-    
-            1. Realizar testes manuais e automatizados em diferentes dispositivos Android (smartphones, tablets, telas pequenas e grandes).
-            2. Registrar o total de interações realizadas e o número de falhas encontradas (travamentos, erros de renderização, falhas de navegação).
-            3. Calcular a taxa de sucesso com base nos relatórios de teste e logs de execução.
-
-    - **Responsável:** Equipe de  Desenvolvimento
-
----
-
-### M3.2 – Questão 03: Hipótese 3.2
-!!! info "Detalhes da Métrica"
-    - **Objetivo:** medir a cobertura de testes de UI responsiva  
-    - **Fórmula:**: (Nº de layouts testados / Nº total de layouts suportados) × 100
-    - **Periodicidade:**  mensal
-    - **Valor-alvo:** ≥ 90%
-    - **Coleta:** 
-
-            1. Identificar os layouts previstos para diferentes resoluções e densidades de tela (pequena, normal, larga).
-            2. Executar testes de interface, manuais ou automatizados, verificando adaptação, legibilidade e alinhamento de elementos.
-            3. Registrar o número de layouts testados com eficiência e o total suportado.
-
-    - **Responsável:** Equipe de  Desenvolvimento
-
----
-
----
-
 ## 4. Resultados da Coleta [^2]
 
 | Métrica | Período | Resultado | Status | Tendência |
@@ -216,7 +171,8 @@ Para estruturar a análise da Adequação Funcional, o objetivo principal foi de
 
 | Versão | Data | Descrição | Autor | Revisor |
 |:------:|:------:|:----------------------------------|:----------------------------------|:-------:|
-| 1.0 | 12/10/2025 | Criação do documento inicial | [João Pedro Costa](https://github.com/johnaopedro) | — |
+| 1.0 | 12/10/2025 | Criação do documento inicial e conteúdo | [João Pedro Costa](https://github.com/johnaopedro) | — |
 | 1.1 | 14/10/2025 | Adição de referência bibliográfica, questões e diagrama | [Fernanda Vaz Duarte dos Santos](https://github.com/) | — |
 | 1.2 | 14/10/2025 | Aprimoramento terminológico e padronização| [Oscar de Brito](https://github.com/OscarDeBrito) | — |
 | 1.3 | 15/10/2025 | Adição de Uma Nova Question (Q3)| [Vinícius Rufino](https://github.com/RufinoVfR) | — |
+| 1.4 | 16/10/2025 | Remoção da Usabilidade Funcional (Q3) | [João Pedro Costa](https://github.com/johnaopedro) | — |
