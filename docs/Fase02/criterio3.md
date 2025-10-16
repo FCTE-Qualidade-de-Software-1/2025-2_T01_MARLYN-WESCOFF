@@ -5,8 +5,8 @@
 
 | Analisar | o aplicativo Guardiões da Saúde |
 |----------|--------------------------------|
-| Para o propósito de |Avaliar e melhorar |
-| Com respeito a | A segurança com foco em confidencialidade e integridade dos dados de saúde do usuário |
+| Para o propósito de | Avaliar |
+| Com respeito a | A *segurança* |
 | Do ponto de vista da | 	Da equipe de Equipe de desenvolvimento |
 | No contexto da |	Disciplina de Qualidade de Software (FCTE - UnB) |
 
