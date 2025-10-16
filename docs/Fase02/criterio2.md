@@ -5,8 +5,8 @@
 | Elemento | Definição |
 |-----------|-----------|
 | **Analisar** | o aplicativo *Guardiões da Saúde* |
-| **Para o propósito de** | Garantir e caracterizar sua qualidade funcional |
-| **Com respeito a** | *Adequação Funcional*, com foco em *Completude* e *Corretude Funcional* |
+| **Para o propósito de** | Caracterizar sua qualidade funcional |
+| **Com respeito a** | *Adequação Funcional* |
 | **Do ponto de vista** | da equipe de Produto e Garantia da Qualidade (QA) |
 | **No contexto da** | Disciplina de Qualidade de Software |
 
