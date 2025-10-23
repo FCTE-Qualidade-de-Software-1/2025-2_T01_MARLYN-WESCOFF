@@ -10,8 +10,6 @@
 | Do ponto de vista da | 	Da equipe de Equipe de desenvolvimento |
 | No contexto da |	Disciplina de Qualidade de Software (FCTE - UnB) |
 
-*Tabela 2 — Critério 3: Execução da Avaliação - Segurança*
-
 
 ## 2. Questions (Questões) e 3. Metrics (Métricas)
 
