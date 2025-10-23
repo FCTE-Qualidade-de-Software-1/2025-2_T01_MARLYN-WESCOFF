@@ -107,8 +107,8 @@
 - **2: Consistência e rastreabilidade dos dados armazenados no sistema**
   - **Objetivo:** Assegurar rastreabilidade das operações críticas.
   - **Método de coleta:** Verificar a existência de operações de log no código em operações críticas.
-
-<!--## 4. Resultados da Coleta <a href="#ref2"><sup>2</sup></a>
+<!--
+## 4. Resultados da Coleta <a href="#ref2"><sup>2</sup></a>
 
 ### 4.1 Dados Coletados por Métrica
 

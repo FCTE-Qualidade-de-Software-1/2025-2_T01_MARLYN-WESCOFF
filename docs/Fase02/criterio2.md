@@ -109,7 +109,7 @@ Para estruturar a análise da Adequação Funcional, o objetivo principal foi de
     - **Responsável:** Equipes de Desenvolvimento
 
 ---
-
+<!--
 ## 4. Resultados da Coleta [^2]
 
 | Métrica | Período | Resultado | Status | Tendência |
@@ -157,7 +157,7 @@ Para estruturar a análise da Adequação Funcional, o objetivo principal foi de
 ## Diagrama — Adequação Funcional
 
 <div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/6c3136a2-4103-4e5f-946d-27f510706ba4" id="d5GZxvYLtoAL"></iframe></div>
-
+-->
 # Referências Bibliográficas
 
 > <a id="ref1"></a> 
