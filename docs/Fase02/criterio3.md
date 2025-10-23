@@ -71,7 +71,7 @@
 ### 3.2: – Armazenamento Local Seguro
 !!! info "Detalhes da Métrica"
     - **Objetivo:** medir o tempo médio de descriptografia 
-    - **Fórmula:**: média do tempo para descriptografar dados locais
+    - **Fórmula:** média do tempo para descriptografar dados locais
     - **Periodicidade:**  semanal
     - **Valor-alvo:** ≤ 1s
     - **Coleta:** 
@@ -110,7 +110,7 @@
   - **Objetivo:** Assegurar rastreabilidade das operações críticas.
   - **Método de coleta:** Verificar a existência de operações de log no código em operações críticas.
 
-## 4. Resultados da Coleta <a href="#ref2"><sup>2</sup></a>
+<!--## 4. Resultados da Coleta <a href="#ref2"><sup>2</sup></a>
 
 ### 4.1 Dados Coletados por Métrica
 
@@ -139,7 +139,7 @@
 ## Diagrama -  Segurança
 
 <div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/48984a30-effd-49b7-8f39-3fb6ac7ff069" id="l-GZK.nXlew7"></iframe></div>
-
+-->
 # Referências Bibliográficas
 
 > <a id="ref1"></a> 
@@ -157,3 +157,4 @@
 | 1.1    | 14/10/2025 | Adição de referência bibliográfica| [Fernanda Vaz Duarte dos Santos](https://github.com/)                 | —       |
 | 1.2    | 14/10/2025 | Adição de métricas| [Marcella S Anderle](https://github.com/marcellaanderle)                 | —       |
 | 1.3    | 15/10/2025 | Adição de métricas e Correção| [Vinícius Rufino](https://github.com/RufinoVfR)                 | —       |
+| 1.4    | 23/10/2025 | Ajustes no topico 2.3| [Marcella S Anderle](https://github.com/marcellaanderle)                  | —       |
