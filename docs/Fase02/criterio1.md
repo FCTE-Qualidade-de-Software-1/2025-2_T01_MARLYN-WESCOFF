@@ -70,13 +70,6 @@ O processo GQM segue uma estrutura clara de medição e análise:
 - Avaliação dos objetivos
 - Tomada de decisões baseada em evidências
 
-## 5. Integração com PSM (Practical Software Measurement)
-
-O GQM se integra com o PSM para fornecer:
-- Gestão de seus projetos
-- Visão prática
-- Medição e análise sistemática
-
 ## 6. Representação Visual
 
 A estrutura do GQM pode ser representada em forma de árvore:

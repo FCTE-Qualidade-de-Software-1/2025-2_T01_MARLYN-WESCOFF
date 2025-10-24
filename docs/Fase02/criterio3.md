@@ -2,111 +2,170 @@
 
 ## 1. Goal (Objetivo)<a href="#ref1"><sup>1</sup></a>
 
-
 | Analisar | o aplicativo Guardiões da Saúde |
 |----------|--------------------------------|
 | Para o propósito de | Avaliar |
 | Com respeito a | A *segurança* |
-| Do ponto de vista da | 	Da equipe de Equipe de desenvolvimento |
-| No contexto da |	Disciplina de Qualidade de Software (FCTE - UnB) |
-
+| Do ponto de vista da | Da equipe de desenvolvimento |
+| No contexto da | Disciplina de Qualidade de Software (FCTE - UnB) |
 
 ## 2. Questions (Questões) e 3. Metrics (Métricas)
 
 ### Confidencialidade
 
-**Q1:** Os dados de saúde dos usuários estão efetivamente protegidos contra acesso não autorizado, tanto em repouso quanto em trânsito?
+#### Q1: Os dados de saúde estão protegidos contra acesso não autorizado?
 
 **Hipóteses:**
 
-- **1:** O sistema utiliza criptografia para todas as comunicações entre cliente e servidor, protegendo dados em trânsito.
+> - **H1.1:** O sistema utiliza criptografia para comunicações entre cliente e servidor.
 
-**Q2:** O sistema segue práticas de desenvolvimento seguro e análise de vulnerabilidades?
-
-**Hipóteses:**
-
-  - **1:** O código é periodicamente revisado para identificar vulnerabilidades conhecidas.
-  - **2:** O sistema utiliza ferramentas automatizadas de análise de código para detecção de falhas de segurança.
-  - **3:** Existe um processo documentado para tratamento e correção de vulnerabilidades identificadas.
-
-**Q3:** Os dados sensíveis armazenados localmente no dispositivo (cache, preferências) estão devidamente criptografados?
+#### Q2: O sistema segue práticas de desenvolvimento seguro?
 
 **Hipóteses:**
 
-  - **1:** Nenhum dado pessoal é armazenado em texto claro.
-  - **2:** O app utiliza criptografia AES ou Android Keystore.
+> - **H2.1:** O código é revisado periodicamente para identificar vulnerabilidades.
+> - **H2.2:** O sistema utiliza ferramentas automatizadas de análise de código.
+> - **H2.3:** Existe processo documentado para correção de vulnerabilidades.
+
+#### Q3: Os dados sensíveis armazenados localmente estão criptografados?
+
+**Hipóteses:**
+
+> - **H3.1:** Nenhum dado pessoal é armazenado em texto claro.
+> - **H3.2:** O app utiliza criptografia AES ou Android Keystore.
 
 **Métricas:**
 
-- **1: Utilização de comunicação utiliza HTTPS**
-  - **Objetivo:** Verificar se todas as comunicações entre cliente e servidor utilizam HTTPS/TLS para garantir a proteção dos dados em trânsito.
-  - **Método de coleta:** Verificar a configuração do servidor incluindo: Certificados SSL/TLS válidos. Protocolos suportados (ex.: TLS 1.2 ou superior).
-  <!--Não foi possível verificar devido ao código do sistema não ter caminhos públicos para conferir se utiliza comunicação HTTPS-->
- 
+---
 
-- **2: Documentação para tratamento e correção de vulnerabilidades identificadas**
-  - **Objetivo:** Verificar o processo de documentação.
-  - **Método de coleta:** Verificar nº de pull requests ou issues com a label fix.
+### M1.1 — Utilização de HTTPS
+!!! info "Detalhes da Métrica"
+    - **Objetivo:** Verificar se todas as comunicações utilizam HTTPS/TLS
+    - **Fórmula:** ???
+    - **Periodicidade:** ???
+    - **Valor-alvo:** 100% das comunicações com HTTPS
+    - **Coleta:** 
+            - 1. Verificar certificados SSL/TLS válidos
+            - 2. Confirmar protocolos suportados (TLS 1.2 ou superior)
+            - 3. Analisar configuração do servidor
+    - **Responsável:** Equipe de Desenvolvimento
 
 ---
 
-### 3.1: – Armazenamento Local Seguro
+### M2.1 — Documentação de Vulnerabilidades
 !!! info "Detalhes da Métrica"
-    - **Objetivo:** medir o percentual de dados criptografados 
-    - **Fórmula:**: Nº de variáveis sensíveis criptografadas / Nº total de variáveis sensíveis
-    - **Periodicidade:**  semanal
+    - **Objetivo:** Verificar o processo de documentação de vulnerabilidades
+    - **Fórmula:** Nº de pull requests ou issues com label "fix"
+    - **Periodicidade:** ???
+    - **Valor-alvo:** ???
+    - **Coleta:** 
+            - 1. Acessar repositório do projeto
+            - 2. Filtrar PRs/issues com label "fix"
+            - 3. Documentar quantidade encontrada
+    - **Responsável:** Equipe de Desenvolvimento
+
+---
+
+### M3.1 — Armazenamento Local Seguro
+!!! info "Detalhes da Métrica"
+    - **Objetivo:** Medir o percentual de dados sensíveis criptografados
+    - **Fórmula:** (Nº de variáveis sensíveis criptografadas / Nº total de variáveis sensíveis) × 100
+    - **Periodicidade:** Semanal
     - **Valor-alvo:** ≥ 100%
     - **Coleta:** 
-
-            - 1. Mapear todas as variáveis sensíveis armazenadas localmente (como tokens, credenciais, informações de saúde).
-            - 2. Verificar, por meio de análise de código e inspeção em tempo de execução, se cada variável está protegida por algoritmo de criptografia.
-            - 3. Documentar a quantidade total de variáveis e quantas estão devidamente criptografadas.
-
-    - **Responsável:** Equipe de  Desenvolvimento
+            - 1. Mapear todas as variáveis sensíveis armazenadas localmente
+            - 2. Verificar criptografia por análise de código
+            - 3. Documentar total e quantidade criptografada
+    - **Responsável:** Equipe de Desenvolvimento
 
 ---
 
-### 3.2: – Armazenamento Local Seguro
+### M3.2 — Tempo de Descriptografia
 !!! info "Detalhes da Métrica"
-    - **Objetivo:** medir o tempo médio de descriptografia 
-    - **Fórmula:** média do tempo para descriptografar dados locais
-    - **Periodicidade:**  semanal
+    - **Objetivo:** Medir o tempo médio de descriptografia de dados locais
+    - **Fórmula:** Média dos tempos de descriptografia
+    - **Periodicidade:** Semanal
     - **Valor-alvo:** ≤ 1s
     - **Coleta:** 
-
-            - 1. Selecionar um conjunto representativo de dados criptografados (como tokens, dados de sessão, preferências locais).
-            - 2. Medir o tempo de execução das rotinas de descriptografia por meio de ferramentas de profiling ou logs de desempenho.
-            - 3. Calcular a média dos tempos obtidos durante múltiplas execuções (mínimo de 10 amostras).
-
-    - **Responsável:** Equipe de  Desenvolvimento
+            - 1. Selecionar conjunto representativo de dados criptografados
+            - 2. Medir tempo com ferramentas de profiling (mínimo 10 amostras)
+            - 3. Calcular média dos tempos obtidos
+    - **Responsável:** Equipe de Desenvolvimento
 
 ---
 
 ### Integridade
 
-**Q1:** Os dados de saúde dos usuários estão efetivamente protegidos contra alteração ou corrupção não autorizada?
+#### Q4: Os dados estão protegidos contra alteração não autorizada?
 
 **Hipóteses:**
 
-  - **1:** Mecanismos de validação e verificação de integridade detectam alterações não autorizadas.
-  - **2:** Qualquer modificação nos dados críticos gera alerta imediato.
+> - **H4.1:** Mecanismos de validação detectam alterações não autorizadas.
+> - **H4.2:** Modificações em dados críticos geram alerta imediato.
 
-**Q2:** Existem mecanismos eficazes para garantir a consistência e rastreabilidade dos dados armazenados no sistema?
+#### Q5: Existem mecanismos para garantir consistência e rastreabilidade dos dados?
 
 **Hipóteses:**
 
-  - **1:** Todas as operações críticas são registradas em logs de auditoria.
-  - **2:** O histórico de alterações permite rastrear e restaurar dados, se necessário.
+> - **H5.1:** Operações críticas são registradas em logs de auditoria.
+> - **H5.2:** O histórico permite rastrear e restaurar dados.
 
 **Métricas:**
 
-- **1: Alertas de Falha na Verificação de Integridade**
-  - **Objetivo:** Garantir que qualquer modificação não autorizada em dados críticos de saúde seja identificada e gere um alerta imediato, assegurando a integridade das informações.
-  - **Método de coleta:** Verificar a existência de mecanismos de verificação de integridade (ex.: checksums, hash, controle de versão ou trilhas de auditoria).
+---
 
-- **2: Consistência e rastreabilidade dos dados armazenados no sistema**
-  - **Objetivo:** Assegurar rastreabilidade das operações críticas.
-  - **Método de coleta:** Verificar a existência de operações de log no código em operações críticas.
+### M4.1 — Alertas de Integridade
+!!! info "Detalhes da Métrica"
+    - **Objetivo:** Garantir identificação de modificações não autorizadas
+    - **Fórmula:** ???
+    - **Periodicidade:** ???
+    - **Valor-alvo:** ???
+    - **Coleta:** 
+            - 1. Verificar mecanismos de verificação de integridade (checksums, hash)
+            - 2. Testar geração de alertas em modificações
+            - 3. Documentar funcionamento
+    - **Responsável:** Equipe de Desenvolvimento
+
+---
+
+### M5.1 — Rastreabilidade de Operações
+!!! info "Detalhes da Métrica"
+    - **Objetivo:** Assegurar rastreabilidade de operações críticas
+    - **Fórmula:** ???
+    - **Periodicidade:** ???
+    - **Valor-alvo:** ???
+    - **Coleta:** 
+            - 1. Identificar operações críticas no sistema
+            - 2. Verificar existência de logs para cada operação
+            - 3. Documentar cobertura de logs
+    - **Responsável:** Equipe de Desenvolvimento
+
+---
+
+## Diagrama -  Segurança
+
+<div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/48984a30-effd-49b7-8f39-3fb6ac7ff069" id="l-GZK.nXlew7"></iframe></div>
+
+# Referências Bibliográficas
+
+> <a id="ref1"></a> 
+> LC03-GQM-Coleta. Disponível em: https://aprender3.unb.br/pluginfile.php/3230283/mod_folder/content/0/LC03-GQM-Coleta.pdf?forcedownload=1. Acesso em: 14 de outubro de 2025.
+
+> <a id="ref2"></a> 
+> LC04-GQM-Interpretacao. Disponível em: https://aprender3.unb.br/pluginfile.php/3230283/mod_folder/content/0/LC04-GQM-Interpretacao.pdf?forcedownload=1. Acesso em: 14 de outubro de 2025.
+
+## Histórico de Versões
+
+| Versão | Data       | Descrição                                              | Autor                                                                 | Revisor |
+|:------:|:----------|:-------------------------------------------------------|:----------------------------------------------------------------------|:-------:|
+| 1.0    | 12/10/2025 | Criação do documento inicial e adição do conteúdo      | [João Pedro Costa](https://github.com/johnaopedro)                    | —       |
+| 1.1    | 14/10/2025 | Adição de referência bibliográfica                     | [Fernanda Vaz Duarte dos Santos](https://github.com/)                 | —       |
+| 1.2    | 14/10/2025 | Adição de métricas                                     | [Marcella S Anderle](https://github.com/marcellaanderle)              | —       |
+| 1.3    | 15/10/2025 | Adição de métricas e Correção                          | [Vinícius Rufino](https://github.com/RufinoVfR)                       | —       |
+| 1.4    | 23/10/2025 | Ajustes no tópico 2.3                                  | [Marcella S Anderle](https://github.com/marcellaanderle)              | —       |
+| 1.5   | 24/10/2025 | melhoria na padronização  e diagrama                                | [Fernanda vaz ](https://github.com/Fernandavazgit1)              | —       |
+
+
 <!--
 ## 4. Resultados da Coleta <a href="#ref2"><sup>2</sup></a>
 
@@ -138,21 +197,3 @@
 
 <div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/48984a30-effd-49b7-8f39-3fb6ac7ff069" id="l-GZK.nXlew7"></iframe></div>
 -->
-# Referências Bibliográficas
-
-> <a id="ref1"></a> 
->LC03-GQM-Coleta. Disponível em: https://aprender3.unb.br/pluginfile.php/3230283/mod_folder/content/0/LC03-GQM-Coleta.pdf?forcedownload=1. Acesso em: 14 de outubro de 2025.
-
-<a id="ref2"></a> 
->LC04-GQM-Interpretacao. Disponível em: https://aprender3.unb.br/pluginfile.php/3230283/mod_folder/content/0/LC04-GQM-Interpretacao.pdf?forcedownload=1. Acesso em: 14 de outubro de 2025
-
-
-## Histórico de Versões
-
-| Versão | Data       | Descrição                                              | Autor                                                                 | Revisor |
-|:------:|:----------|:-------------------------------------------------------|:----------------------------------------------------------------------|:-------:|
-| 1.0    | 12/10/2025 | Criação do documento inicial e adição do conteúdo      | [João Pedro Costa](https://github.com/johnaopedro)                    | —       |
-| 1.1    | 14/10/2025 | Adição de referência bibliográfica| [Fernanda Vaz Duarte dos Santos](https://github.com/)                 | —       |
-| 1.2    | 14/10/2025 | Adição de métricas| [Marcella S Anderle](https://github.com/marcellaanderle)                 | —       |
-| 1.3    | 15/10/2025 | Adição de métricas e Correção| [Vinícius Rufino](https://github.com/RufinoVfR)                 | —       |
-| 1.4    | 23/10/2025 | Ajustes no topico 2.3| [Marcella S Anderle](https://github.com/marcellaanderle)                  | —       |

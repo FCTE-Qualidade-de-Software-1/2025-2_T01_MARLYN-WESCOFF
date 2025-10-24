@@ -6,15 +6,14 @@ A tabela abaixo apresenta os membros da equipe e suas contribuições para o pro
 
 <p style="text-align: center">Tabela 1 — Contribuição dos membros da equipe</p>
 
-| Nome                  | Matrícula   | Descrição das Contribuições                                 | Contribuição (%)|
-|-----------------------|-------------|-------------------------------------------------------------|-----------------|
-| Marcella Anderle      | 221035040   |                                             |   16,66%             |
-| Vinícius Fernandes Rufino | 200062891   |                                                               |      16,66%          |
-| Yan Werlley           | 211030649   |                                                       |   16,66%             |
-| Oscar de Brito        | 211031790   |                                                             |   16,66%             |
-| João Pedro Costa      | 190030801   |                                                                |   16,66%             |
-| Fernanda Vaz          | 221007715   |                                                              |      16,66%          |
-
+| Nome                          | Matrícula | Descrição das Contribuições                              | Contribuição (%) |
+|-------------------------------|-----------|----------------------------------------------------------|------------------|
+| Marcella Anderle              | 221035040 |         | 16,66%           |
+| Vinícius Fernandes Rufino     | 200062891 |            | 16,66%           |
+| Yan Werlley                   | 211030649 |                | 16,66%           |
+| Oscar de Brito                | 211031790 |               | 16,66%           |
+| João Pedro Costa              | 190030801 |   | 16,66%           |
+| Fernanda Vaz                  | 221007715 | Elaboração do tópico de adequação funcional e diagramas  | 16,66%           |
 <figcaption></figcaption>
 </figure>
 
