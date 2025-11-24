@@ -12,7 +12,7 @@ A tabela abaixo apresenta os membros da equipe e suas contribuições para o pro
 | Vinícius Fernandes Rufino     | 200062891 |             | 16,66% |
 | Yan Werlley                   | 211030649 |             | 16,66% |
 | Oscar de Brito                | 211031790 |             | 16,66% |
-| João Pedro Costa              | 190030801 |             | 16,66% |
+| João Pedro Costa              | 190030801 | Desenvolvimento do documento da fase 3. | 16,66% |
 | Fernanda Vaz                  | 221007715 |             | 16,66% |
 <figcaption></figcaption>
 </figure>

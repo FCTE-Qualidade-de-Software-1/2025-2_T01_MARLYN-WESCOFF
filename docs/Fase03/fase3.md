@@ -114,11 +114,11 @@ Baseado no GQM da Fase 2.
 #### **7.3. M2.1 — Taxa de Sucesso de Operações Principais**
 * **Objetivo:** Avaliar a corretude do sistema (para H2.1).
 * **Passos de Execução:**
-    1.  Executar cada funcionalidade (Cadastro, Geolocalização, Reporte de sintomas) 2 vezes.
+    1.  Executar cada funcionalidade 3 vezes.
     2.  Registrar resultado: 'Sucesso' ou 'Falha Crítica'.
     3.  (Definição de Falha Crítica: operação não concluída, erro, travamento, timeout).
     4.  Documentar em planilha: data, funcionalidade, resultado, observações.
-* **Evidência:** Planilha de execução, logs do `adb` (Logcat), screenshots de erro.
+* **Evidência:** Screenshots de erro ou vídeo.
 * **Cálculo:** `(Nº de operações concluídas sem falhas críticas / Nº total de operações) × 100`.
 * **Critério (Valor-alvo):** ≥ 98%.
 
