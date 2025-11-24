@@ -146,4 +146,4 @@ Para determinar o resultado final, aplicam-se os seguintes critérios:
 
 | Versão | Data       | Descrição                         | Autor                               | Revisor |
 |:------:|:----------|:----------------------------------|:-------------------------------------|:-------:|
-| 1.0    | 24/11/2025 | Criação do Documento inicial e artefato da tabela de contribuição | [João Pedro Costa](https://github.com/johnaopedro) |   —    |
+| 1.0    | 24/11/2025 | Criação do Documento inicial e elaboração do documento e dos testes do Q2 | [João Pedro Costa](https://github.com/johnaopedro) |   —    |
