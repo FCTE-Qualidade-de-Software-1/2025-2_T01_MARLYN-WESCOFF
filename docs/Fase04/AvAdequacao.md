@@ -12,7 +12,6 @@ Os testes foram realizados conforme as especificações abaixo, garantindo a rep
 | **Dispositivos** | Emulador Android |
 | **Sistema Operacional** | Android 11 |
 | **Ferramentas de Apoio** | Gravador de Tela nativo |
-# Resultados da Avaliação - Adequação Funcional
 
 ---
 
