@@ -64,21 +64,21 @@ Os testes foram realizados conforme as especificações abaixo, garantindo a rep
 
 | ID Teste | Funcionalidade | Resultado | Observação / Erro | Link do Vídeo (Evidência) |
 | :--- | :--- | :--- | :--- | :--- |
-| **TESTE 1** | **(Bateria 1)** | | | [Teste 1](./videos/Taxa_de_Sucesso_de_Operações_Principais_Teste1.mp4) |
+| **TESTE 1** | **(Bateria 1)** | | | [Teste 1](../videos/Taxa_de_Sucesso_de_Operações_Principais_Teste1.mp4) |
 | T1.1 | Diário de Saúde | **Sucesso** | Calendário registrou corretamente. | |
 | T1.2 | Mapa | **Falha** | Erro de permissão/Ambiente. | |
 | T1.3 | Perfil | **Sucesso** | Gênero alterado. | |
 | T1.4 | Segurança | **Sucesso** | Troca de senha OK. | |
 | T1.5 | Vacinação | **Sucesso** | Dose adicionada. | |
 | T1.6 | Navegação | **Sucesso** | Links externos OK. | |
-| **TESTE 2** | **(Bateria 2)** | | | [Teste 2](./videos/Taxa_de_Sucesso_de_Operações_Principais_Teste2.mp4)  |
+| **TESTE 2** | **(Bateria 2)** | | | [Teste 2](../videos/Taxa_de_Sucesso_de_Operações_Principais_Teste2.mp4)  |
 | T2.1 | Navegação | **Sucesso** | Acesso normal. | |
 | T2.2 | Mapa | **Falha** | Erro de permissão. | |
 | T2.3 | Diário de Saúde | **Sucesso** | Validação de registro OK. | |
 | T2.4 | Segurança | **Sucesso** | Validação de senha OK. | |
 | T2.5 | Perfil | **Sucesso** | Nome alterado. | |
 | T2.6 | Login | **Sucesso** | Login válido. | |
-| **TESTE 3** | **(Bateria 3)** | | | [Teste 3](./videos/Taxa_de_Sucesso_de_Operações_Principais_Teste3.mp4)  |
+| **TESTE 3** | **(Bateria 3)** | | | [Teste 3](../videos/Taxa_de_Sucesso_de_Operações_Principais_Teste3.mp4)  |
 | T3.1 | Perfil | **Sucesso** | Múltiplas alterações. | |
 | T3.2 | Segurança | **Sucesso** | Tratou senha inválida corretamente. | |
 | T3.3 | Vacinação | **Sucesso** | Data antiga aceita. | |
