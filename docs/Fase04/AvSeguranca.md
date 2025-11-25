@@ -94,12 +94,6 @@ Sem as medições individuais, **não é possível calcular a média** do tempo 
 
 ---
 
-### Observação
-A coleta desta métrica exige acesso ao dispositivo físico/emulador durante o teste e gravação das rotinas de I/O criptografado. Recomenda-se repetir o procedimento com o Profiler habilitado para registrar os tempos e concluir a avaliação.
-
-
----
-
 ## 4. Integridade (Q4, Q5)
 
 ### 4.1. Métrica SEG-M4.1: Alertas de Integridade
