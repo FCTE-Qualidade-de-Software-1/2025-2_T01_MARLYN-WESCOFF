@@ -51,9 +51,7 @@ Os testes foram realizados conforme as especificações abaixo, garantindo a rep
 
 | Arquivo Inspecionado (`adb shell`) | Dado Sensível Encontrado? | Estado (Texto Claro / Criptografado) | Link da Evidência |
 | :--- | :--- | :--- | :--- |
-| `SharedPreferences` (UserPrefs) | *[Sim/Não]* | *[Ex: Criptografado]* | [Link Aqui] |
-| `Databases` (SQLite) | *[Sim/Não]* | *[Ex: Texto Claro]* | [Link Aqui] |
-| Cache Files | *[Sim/Não]* | *[Ex: Vazio]* | [Link Aqui] |
+| Cache Files | *[Sim]* | token | [Print](https://raw.githubusercontent.com/FCTE-Qualidade-de-Software-1/2025-2_T01_MARLYN-WESCOFF/refs/heads/main/docs/images/evidencia1seguranca.png)|
 
 * **Cálculo:** `(Dados Criptografados / Total Sensíveis) * 100` = **[X]%**
 * **Critério (Alvo):** ≥ 100%
