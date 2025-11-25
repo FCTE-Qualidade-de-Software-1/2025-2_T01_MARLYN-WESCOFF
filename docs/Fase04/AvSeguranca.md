@@ -51,11 +51,14 @@ Os testes foram realizados conforme as especificações abaixo, garantindo a rep
 
 | Arquivo Inspecionado (`adb shell`) | Dado Sensível Encontrado? | Estado (Texto Claro / Criptografado) | Link da Evidência |
 | :--- | :--- | :--- | :--- |
-| Cache Files | *[Sim]* | token | [Print](https://raw.githubusercontent.com/FCTE-Qualidade-de-Software-1/2025-2_T01_MARLYN-WESCOFF/refs/heads/main/docs/images/evidencia1seguranca.png)|
+| Cache Files | **Sim – token** | **Texto Claro** | [Print](https://raw.githubusercontent.com/FCTE-Qualidade-de-Software-1/2025-2_T01_MARLYN-WESCOFF/refs/heads/main/docs/images/evidencia1seguranca.png) |
 
-* **Cálculo:** `(Dados Criptografados / Total Sensíveis) * 100` = **[X]%**
-* **Critério (Alvo):** ≥ 100%
-* **Status:** *[Atingido / Não Atingido]*
+* **Cálculo:** `(Dados Criptografados / Total Sensíveis) * 100`  
+  → `(0 / 1) * 100` = **0%**
+
+* **Critério (Alvo):** ≥ **100%**
+
+* **Status:** **Não Atingido**
 
 ---
 
