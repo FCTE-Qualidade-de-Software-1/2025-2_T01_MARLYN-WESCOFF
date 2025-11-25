@@ -270,10 +270,10 @@ Este plano (Fase 3) garante que a Fase 4 seja executada de forma que atenda aos 
 | Métrica (ID) | Teste de Avaliação | Responsável(is) |
 |---|---|---|
 | Adequação Funcional |  |  |
-| AF-M1.1 | Taxa de Sucesso no Cadastro Completo | Vinícius Rufino |
+| AF-M1.1 | Taxa de Sucesso no Cadastro Completo | Fernanda Vaz  |
 | AF-M1.2 | Tempo de Recuperação de Senha | Fernanda Vaz |
 | AF-M2.1 | Taxa de Sucesso de Operações Principais | João Pedro Costa |
-| AF-M2.2 | Taxa de Perda de Registros de Saúde | Fernanda Vaz |
+| AF-M2.2 | Taxa de Perda de Registros de Saúde |Vinícius Rufino  |
 | Segurança |  |  |
 | SEG-M1.1 | Utilização de HTTPS (Análise de Tráfego) | Oscar de Brito |
 | SEG-M2.1 | Documentação de Vulnerabilidades (Análise SAST) | Yan Werlley |
