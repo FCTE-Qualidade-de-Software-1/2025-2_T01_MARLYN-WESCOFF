@@ -21,15 +21,24 @@ Os testes foram realizados conforme as especificações abaixo, garantindo a rep
 **Objetivo:** Verificar se o sistema permite criar contas com todos os campos obrigatórios preenchidos (H1.1).
 
 | ID Teste | Cenário | Resultado (Sucesso/Falha) | Link da Evidência (Vídeo/Print) |
-| :--- | :--- | :--- | :--- |
-| T-CAD-01 | Cadastro com dados válidos (Usuário 1) | *[Preencher]* | [Link Aqui] |
-| T-CAD-02 | Cadastro com dados válidos (Usuário 2) | *[Preencher]* | [Link Aqui] |
-| ... | ... | ... | ... |
-| T-CAD-10 | Cadastro com dados válidos (Usuário 10) | *[Preencher]* | [Link Aqui] |
+|---------|---------|---------------------------|---------------------------------|
+| T-CAD-01 | Cadastro com dados válidos (Usuário 1) | Sucesso | [link](https://youtube.com/shorts/u8YjErM28zI?feature=share) |
+| T-CAD-02 | Cadastro com dados válidos (Usuário 2) | Sucesso | [link](https://youtube.com/shorts/Rd77DBF-f-w?feature=share) |
+| T-CAD-03 | Cadastro com dados válidos (Usuário 3) | Sucesso | [link](https://youtube.com/shorts/PEt-PELYOQw?feature=share) |
+| T-CAD-04 | Cadastro com dados válidos (Usuário 4) | Sucesso | [link](https://youtube.com/shorts/v1ptqXH5sYs?feature=share) |
+| T-CAD-05 | Cadastro com dados válidos (Usuário 5) | Sucesso | [link](https://youtube.com/shorts/QrU1pQVETS0?feature=share) |
+| T-CAD-06 | Cadastro com dados válidos (Usuário 6) | Sucesso | [link](https://youtube.com/shorts/4wMvA2h33bo?feature=share) |
+| T-CAD-07 | Cadastro com dados válidos (Usuário 7) | Sucesso | [link](https://youtube.com/shorts/w8uLkUepMWo?feature=share) |
+| T-CAD-08 | Cadastro com dados válidos (Usuário 8) | **Falha** | [link](https://youtube.com/shorts/p3wcxJ4_jrM?feature=share) |
+| T-CAD-09 | Cadastro com dados válidos (Usuário 9) | Sucesso | [link](https://youtube.com/shorts/bGYpSa3J20Y?feature=share) |
+| T-CAD-10 | Cadastro com dados válidos (Usuário 10) | Sucesso | [link](https://youtube.com/shorts/Yg7Xo7sbdn4?feature=share) |
 
-* **Cálculo:** `(Sucessos / 10) * 100` = **[X]%**
+* **Cálculo:** `(Sucessos / 10) * 100` = **90%**
+* (9 / 10) * 100 = 90% *
 * **Critério (Alvo):** ≥ 95%
-* **Status:** *[Atingido / Não Atingido]*
+* **Status:** *Não Atingido*
+
+
 
 ---
 
@@ -147,3 +156,6 @@ Para determinar o resultado final, aplicam-se os seguintes critérios:
 | Versão | Data       | Descrição                         | Autor                               | Revisor |
 |:------:|:----------|:----------------------------------|:-------------------------------------|:-------:|
 | 1.0    | 24/11/2025 | Criação do Documento inicial e elaboração do documento e dos testes do Q2 | [João Pedro Costa](https://github.com/johnaopedro) |   —    |
+| Versão | Data       | Descrição                         | Autor                               | Revisor |
+|:------:|:----------|:----------------------------------|:-------------------------------------|:-------:|
+| 1.1    | 25/11/2025 | ELABORAÇÃO DOS TESTE:Taxa de Sucesso no Cadastro Completo E Tempo de Recuperação de Senha | FERNANDA VAZ |   —    |
