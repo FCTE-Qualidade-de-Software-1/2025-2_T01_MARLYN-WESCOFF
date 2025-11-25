@@ -42,18 +42,19 @@ Os testes foram realizados conforme as especificações abaixo, garantindo a rep
 
 ---
 
-### 3.2. Métrica AF-M1.2: Tempo de Recuperação de Senha
+3.2. Métrica AF-M1.2: Tempo de Recuperação de Senha  
 **Objetivo:** Medir o tempo entre a solicitação e a conclusão da recuperação de senha (H1.2).
 
-| ID Teste | Hora Início | Hora Conclusão | Tempo Total (min) | Link da Evidência |
-| :--- | :--- | :--- | :--- | :--- |
-| T-REC-01 | 00:00 | 00:00 | 0 min | [Link Aqui] |
-| T-REC-02 | 00:00 | 00:00 | 0 min | [Link Aqui] |
-| T-REC-03 | 00:00 | 00:00 | 0 min | [Link Aqui] |
+| **ID Teste** | **Hora Início** | **Hora Conclusão** | **Tempo Total (min)** | **Link da Evidência** | **Print do E-mail** |
+|--------------|------------------|---------------------|------------------------|-------------------------|----------------------|
+| T-REC-01     | 15:39            | 15:41               | 2 min                  | [Link](https://youtube.com/shorts/D_XymIaXQUo?feature=share)                | [Print](https://i.ibb.co/bjDhz63x/TESTE01.png)            |
+| T-REC-02     | 15:43            | 15:44               | 1 min                  | [Link](https://youtube.com/shorts/XgZRqwxivKE)                | [Print](https://i.ibb.co/9Hy8HNy4/TESTE02.png)            |
+| T-REC-03     | 15:46            | 15:47               | 1 min                  | [Link](https://youtube.com/shorts/igLu5fMyam4)                | [Print](https://i.ibb.co/n8fjqvJc/TESTE03.png)            |
 
-* **Média:** **[X] minutos**
-* **Critério (Alvo):** ≤ 5 minutos
-* **Status:** *[Atingido / Não Atingido]*
+**Média:** **1,33 minutos**  
+**Critério (Alvo):** ≤ 5 minutos  
+**Status:** **Atingido**
+
 
 ---
 
