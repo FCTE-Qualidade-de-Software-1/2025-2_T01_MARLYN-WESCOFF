@@ -11,7 +11,7 @@ A tabela abaixo apresenta os membros da equipe e suas contribuições para o pro
 | Marcella Anderle              | 221035040 |             |  |
 | Vinícius Fernandes Rufino     | 200062891 |             |  |
 | Yan Werlley                   | 211030649 |             |  |
-| Oscar de Brito                | 211031790 |             |  |
+| Oscar de Brito                | 211031790 |    Desenvolvimento dos testes de Segurança. Execução dos testes relacionados a metrica M1.1 e M4.1           |  |
 | João Pedro Costa              | 190030801 | Desenvolvimento dos testes de adequação funcional. Execução dos testes relacionados a metrica M2.1 (H2.1)           | 16,66% |
 | Fernanda Vaz                  | 221007715 |   Elaboração dos testes referentes à Taxa de Sucesso no Cadastro Completo e ao Tempo de Recuperação de Senha, para garantir a avaliação adequada dessas métricas.          | 16.66% |
 <figcaption></figcaption>

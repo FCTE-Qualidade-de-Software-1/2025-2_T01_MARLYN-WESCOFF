@@ -34,7 +34,7 @@ Os níveis abaixo foram preenchidos conforme a classificação obtida após o c�
 | M2.1 (Operações Principais) | **Bom** (83,33% de sucesso - Falha pontual no Mapa) |
 | M2.2 (Perda de Dados) | *[Ex: Excelente]* |
 | **SEGURANÇA** | |
-| M1.1 (HTTPS) | *[Ex: Excelente]* |
+| M1.1 (HTTPS) | **Excelente** (100% de sucesso) |
 | M2.1 (Vulnerabilidades) | *[Ex: Regular]* |
 | M3.1 (Armazenamento Local) | *[Ex: Insuficiente]* |
 | M3.2 (Tempo Descriptografia) | *[Ex: Bom]* |
@@ -78,3 +78,4 @@ Os critérios globais seguem as definições estabelecidas no documento de pontu
 | Versão | Data | Descrição | Autor | Revisor |
 |:------:|:----------|:----------------------------------|:-------------------------------------|:-------:|
 | 1.0 | 24/11/2025 | Criação do Documento inicial e artefato da tabela de contribuição | [João Pedro Costa](https://github.com/johnaopedro) | — |
+| 1.1 | 24/11/2025 | Criação do Documento inicial e artefato da tabela de contribuição | [Oscar de Brito](https://github.com/OscardeBrito) | — |

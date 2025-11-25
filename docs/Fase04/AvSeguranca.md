@@ -20,15 +20,36 @@ Os testes foram realizados conforme as especificações abaixo, garantindo a rep
 ### 3.1. Métrica SEG-M1.1: Utilização de HTTPS
 **Objetivo:** Verificar se todas as comunicações entre o app e a API utilizam criptografia TLS 1.2+ (H1.1).
 
-| Fluxo Testado | Protocolo Identificado | Certificado Válido? | Link da Evidência (Burp Suite) |
-| :--- | :--- | :--- | :--- |
-| Login | *[Ex: HTTPS / TLS 1.3]* | *[Sim/Não]* | [Link Aqui] |
-| Cadastro | *[Ex: HTTPS / TLS 1.3]* | *[Sim/Não]* | [Link Aqui] |
-| Reporte de Sintomas | *[Ex: HTTPS / TLS 1.3]* | *[Sim/Não]* | [Link Aqui] |
+| Endpoint Testado | Método | Protocolo Identificado  | Cifra | Certificado Válido |
+| :--- | :--- | :--- | :--- | :--- |
+| /auth/sign_in | POST | HTTPS | 1.3  | Sim |
+| /auth/sign_out | DELETE | HTTPS | 1.3  | Sim |
+| /auth/sign_up | POST | HTTPS | 1.3  | Sim |
+| /auth | PUT | HTTPS | 1.3  | Sim |
+| /auth/password | POST | HTTPS | 1.3  | Sim |
+| /users/:id | GET | HTTPS | 1.3  | Sim |
+| /users/:id | PATCH | HTTPS | 1.3  | Sim |
+| /users/:id | DELETE | HTTPS | 1.3  | Sim |
+| /users/:user_id/surveys | GET | HTTPS | 1.3  | Sim |
+| /users/:user_id/surveys | POST | HTTPS | 1.3  | Sim |
+| /users/:user_id/households | GET | HTTPS | 1.3  | Sim |
+| /users/:user_id/households | POST | HTTPS | 1.3  | Sim |
+| /users/:user_id/households/:id | PATCH | HTTPS | 1.3  | Sim |
+| /users/:user_id/households/:id | DELETE | HTTPS | 1.3  | Sim |
+| /contents | GET | HTTPS | 1.3  | Sim |
+| /apps | GET | HTTPS | 1.3  | Sim |
+| /categories | GET | HTTPS | 1.3  | Sim |
+| /flexible_answers | POST | HTTPS | 1.3  | Sim |
+| /flexible_form_versions | GET | HTTPS | 1.3  | Sim |
+| /form_answers | POST | HTTPS | 1.3  | Sim |
+| /symptoms | GET | HTTPS | 1.3  | Sim |
+| /pre_registers | POST | HTTPS | 1.3  | Sim |
 
-* **Resultado:** `(Endpoints Seguros / Total Testados) * 100` = **[X]%**
+* **Resultado:** 100% dos 22 endpoints utilizam HTTPS 
 * **Critério (Alvo):** 100%
-* **Status:** *[Atingido / Não Atingido]*
+* **Status:** **Atingido**
+* **Link da Gravação do teste:** ****
+
 
 ---
 
