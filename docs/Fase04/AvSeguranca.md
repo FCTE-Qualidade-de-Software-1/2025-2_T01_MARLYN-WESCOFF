@@ -63,17 +63,40 @@ Os testes foram realizados conforme as especificações abaixo, garantindo a rep
 ---
 
 ### 3.4. Métrica SEG-M3.2: Tempo de Descriptografia
-**Objetivo:** Medir se a segurança impacta a performance (tempo de leitura de dados locais) (H3.2).
 
-| Amostra | Tempo de Leitura (ms) | Link da Evidência (Profiler) |
-| :--- | :--- | :--- |
-| Amostra 1 | *[Valor]* ms | [Link Aqui] |
-| ... | ... | ... |
-| Amostra 10 | *[Valor]* ms | [Link Aqui] |
+**Objetivo:** Avaliar se o processo de descriptografia de dados locais impacta a performance do aplicativo, conforme a hipótese H3.2.  
+A métrica verifica se o tempo médio necessário para leitura de informações protegidas (ex.: token criptografado, credenciais armazenadas em contêiner seguro) permanece dentro de um limite aceitável para a usabilidade do usuário.
 
-* **Média:** **[X] ms** (ou segundos)
-* **Critério (Alvo):** ≤ 1s
-* **Status:** *[Atingido / Não Atingido]*
+Como parte da metodologia definida, o tempo de leitura deve ser coletado por meio do **Android Studio Profiler (CPU Profiler)**, medindo especificamente a função responsável pela recuperação e descriptografia dos dados armazenados. O procedimento prevê a coleta de **10 amostras independentes**, executando ações reais do usuário, como:
+
+- abertura do aplicativo,
+- carregamento do perfil/logado,
+- chamadas internas ao `SecureStorage`.
+
+Como não houve acesso aos dados de execução durante a avaliação, os tempos individuais não puderam ser registrados. Assim, a tabela abaixo é apresentada apenas como estrutura metodológica:
+
+| Amostra | Tempo de Leitura (ms) | Evidência (Profiler) |
+| :---: | :---: | :--- |
+| Amostra 1 | *Não coletado* | *Indisponível* |
+
+---
+
+### Cálculo
+Sem as medições individuais, **não é possível calcular a média** do tempo de descriptografia.
+
+---
+
+### Resultado
+- **Média:** *Não calculada*  
+- **Critério (Alvo):** ≤ **1s** (1000 ms)  
+- **Status:** ⚠️ **Não Avaliado**  
+  *A métrica não pôde ser concluída devido à ausência de dados no Profiler durante a execução do teste.*
+
+---
+
+### Observação
+A coleta desta métrica exige acesso ao dispositivo físico/emulador durante o teste e gravação das rotinas de I/O criptografado. Recomenda-se repetir o procedimento com o Profiler habilitado para registrar os tempos e concluir a avaliação.
+
 
 ---
 
