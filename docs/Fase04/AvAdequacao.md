@@ -8,7 +8,7 @@ Os testes foram realizados conforme as especificações abaixo, garantindo a rep
 
 | Item | Detalhe |
 | :--- | :--- |
-| **Versão do Software** | Guardiões da Saúde (Build de Teste gerada via Android Studio / APK) |
+| **Versão do Software** | Guardiões da Saúde (Build de Teste/ APK) |
 | **Dispositivos** | Emulador Android |
 | **Sistema Operacional** | Android 11 |
 | **Ferramentas de Apoio** | Gravador de Tela nativo |
@@ -156,7 +156,5 @@ Para determinar o resultado final, aplicam-se os seguintes critérios:
 
 | Versão | Data       | Descrição                         | Autor                               | Revisor |
 |:------:|:----------|:----------------------------------|:-------------------------------------|:-------:|
-| 1.0    | 24/11/2025 | Criação do Documento inicial e elaboração do documento e dos testes do Q2 | [João Pedro Costa](https://github.com/johnaopedro) |   —    |
-| Versão | Data       | Descrição                         | Autor                               | Revisor |
-|:------:|:----------|:----------------------------------|:-------------------------------------|:-------:|
+| 1.0    | 24/11/2025 | Criação do Documento inicial e elaboração do documento e do teste AF-M2.1: Taxa de Sucesso de Operações Principais | [João Pedro Costa](https://github.com/johnaopedro) |   —    |
 | 1.1    | 25/11/2025 | ELABORAÇÃO DOS TESTE:Taxa de Sucesso no Cadastro Completo E Tempo de Recuperação de Senha | FERNANDA VAZ |   —    |

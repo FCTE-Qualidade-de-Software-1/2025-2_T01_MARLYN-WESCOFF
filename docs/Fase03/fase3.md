@@ -117,7 +117,6 @@ Baseado no GQM da Fase 2.
     1.  Executar cada funcionalidade 3 vezes.
     2.  Registrar resultado: 'Sucesso' ou 'Falha Crítica'.
     3.  (Definição de Falha Crítica: operação não concluída, erro, travamento, timeout).
-    4.  Documentar em planilha: data, funcionalidade, resultado, observações.
 * **Evidência:** Screenshots de erro ou vídeo.
 * **Cálculo:** `(Nº de operações concluídas sem falhas críticas / Nº total de operações) × 100`.
 * **Critério (Valor-alvo):** ≥ 98%.
