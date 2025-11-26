@@ -58,12 +58,12 @@ Os testes foram realizados conforme as especificações abaixo, garantindo a rep
 
 | Ferramenta | Vulnerabilidades Críticas | Vulnerabilidades Altas | Link do Relatório |
 | :--- | :---: | :---: | :--- |
-| Snyk (Frontend) | *[Qtd]* | *[Qtd]* | [Link Aqui] |
-| Snyk (Backend) | *[Qtd]* | *[Qtd]* | [Link Aqui] |
+| Snyk (Frontend) | 3 | 26 | [Evidência (Snyk)](../images/snyk_front.png) |
+| Snyk (Backend) | 64 | 286 | [Evidência (Snyk)](../images/snyk_back.png) |
 
-* **Total Críticas:** **[X]**
+* **Total Críticas:** **67**
 * **Critério (Alvo):** 0 Vulnerabilidades Críticas
-* **Status:** *[Atingido / Não Atingido]*
+* **Status:** **Não Atingido**
 
 ---
 
@@ -198,3 +198,4 @@ Para determinar o resultado final, aplicam-se os seguintes critérios:
 | Versão | Data       | Descrição                         | Autor                               | Revisor |
 |:------:|:----------|:----------------------------------|:-------------------------------------|:-------:|
 | 1.0    | 24/11/2025 | Criação do Documento inicial e elaboração do documento | [João Pedro Costa](https://github.com/johnaopedro) |   —    |
+| 1.1    | 26/11/2025 | Adiciona metrica M2.1 | [Yan Werlley](https://github.com/YanWerlley) |   —    |
