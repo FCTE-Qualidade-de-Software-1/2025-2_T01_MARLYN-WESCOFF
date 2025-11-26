@@ -45,7 +45,7 @@ Os testes foram realizados conforme as especificações abaixo, garantindo a rep
 | /symptoms | GET | HTTPS | 1.3  | Sim |
 | /pre_registers | POST | HTTPS | 1.3  | Sim |
 
-* **Resultado:** 100% dos 22 endpoints utilizam HTTPS 
+* **Resultado:** (22 / 22) × 100 **100% dos 22 endpoints utilizam HTTPS** 
 * **Critério (Alvo):** 100%
 * **Status:** **Atingido**
 * **Link da Gravação do teste:** ****
@@ -120,14 +120,22 @@ Sem as medições individuais, **não é possível calcular a média** do tempo 
 ### 4.1. Métrica SEG-M4.1: Alertas de Integridade
 **Objetivo:** Verificar se a API rejeita dados manipulados em trânsito (H4.1).
 
-| Cenário de Ataque | Dado Alterado | Resposta da API (Código HTTP) | Comportamento (Bloqueou/Aceitou) | Link da Evidência |
-| :--- | :--- | :--- | :--- | :--- |
-| Manipulação de ID | ID do Usuário na Requisição | *[Ex: 403 Forbidden]* | *[Bloqueou]* | [Link Aqui] |
-| Manipulação de Payload | Alteração de Sintomas | *[Ex: 200 OK]* | *[Aceitou - Falha]* | [Link Aqui] |
+| Cenário de Ataque | Dado Alterado | Resposta da API (HTTP) | Comportamento |
+| :--- | :--- | :--- | :--- |
+| Modificação de ID em Survey | user_id | 403 Forbidden | Bloqueou |
+| Modificação de Timestamp | created_at / timestamp | 422 Unprocessable Entity | Bloqueou |
+| Modificação de ID do Próprio Usuário | id | 403 Forbidden | Bloqueou |
+| Injeção de Campo Administrativo | admin flag | 403 Forbidden | Bloqueou |
+| Modificação de user_id em Household | household user_id | 403 Forbidden | Bloqueou |
+| Acesso a Recurso de Outro Usuário | authorization header | 401 Unauthorized | Bloqueou |
+| Elevação de Permissão (Role Escalation) | role | 403 Forbidden | Bloqueou |
+| Modificação de Status de Formulário | status | 403 Forbidden | Bloqueou |
 
-* **Resultado:** O mecanismo de integridade funcionou? **[Sim/Não]**
-* **Critério (Alvo):** Rejeição de modificações não autorizadas.
-* **Status:** *[Atingido / Não Atingido]*
+
+* **Resultado:** (8 / 8) × 100 = **100%**
+* **Critério (Alvo):** Rejeição de 100% das modificações não autorizadas.
+* **Status:** **Atingido**
+* **Link da Gravação do teste:** ****
 
 ---
 

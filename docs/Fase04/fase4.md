@@ -38,7 +38,7 @@ Os níveis abaixo foram preenchidos conforme a classificação obtida após o c�
 | M2.1 (Vulnerabilidades) | *[Ex: Regular]* |
 | M3.1 (Armazenamento Local) | *[Ex: Insuficiente]* |
 | M3.2 (Tempo Descriptografia) | *[Ex: Bom]* |
-| M4.1 (Integridade) | *[Ex: Bom]* |
+| M4.1 (Integridade) | **Excelente** (100% de sucesso) |
 | M5.1 (Rastreabilidade) | *[Ex: Regular]* |
 
 ## Critérios de julgamento
@@ -78,4 +78,4 @@ Os critérios globais seguem as definições estabelecidas no documento de pontu
 | Versão | Data | Descrição | Autor | Revisor |
 |:------:|:----------|:----------------------------------|:-------------------------------------|:-------:|
 | 1.0 | 24/11/2025 | Criação do Documento inicial e artefato da tabela de contribuição | [João Pedro Costa](https://github.com/johnaopedro) | — |
-| 1.1 | 24/11/2025 | Criação do Documento inicial e artefato da tabela de contribuição | [Oscar de Brito](https://github.com/OscardeBrito) | — |
+| 1.1 | 24/11/2025 | Atualização dos testes de M1.1 E M4.1 | [Oscar de Brito](https://github.com/OscardeBrito) | — |

@@ -22,3 +22,4 @@ A tabela abaixo apresenta os membros da equipe e suas contribuições para o pro
 | Versão | Data       | Descrição                         | Autor                               | Revisor |
 |:------:|:----------|:----------------------------------|:-------------------------------------|:-------:|
 | 1.0    | 24/11/2025 | Criação do Documento inicial e artefato da tabela de contribuição | [João Pedro Costa](https://github.com/johnaopedro) |   —    |
+| 1.1    | 24/11/2025 | Adição de contribuição Oscar de Brito | [Oscar de Brito](https://github.com/OscarDeBrito) |   —    |
