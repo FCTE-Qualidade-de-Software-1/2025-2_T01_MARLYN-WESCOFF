@@ -147,8 +147,8 @@ Baseado no GQM da Fase 2.
     3.  Analisar o log de tráfego no Burp Suite.
     4.  Verificar se 100% das requisições para a API são HTTPS.
     5.  Confirmar protocolos suportados (TLS 1.2 ou superior) e certificados válidos.
-* **Evidência:** Logs do Burp Suite, screenshots da análise do certificado.
-* **Cálculo:** (Fórmula `???`) Será: `(Nº de endpoints da API usando HTTPS / Total de endpoints testados) × 100`.
+* **Evidência:** Logs do Burp Suite, screenshots, video.
+* **Cálculo:** (Fórmula) Será: `(Nº de endpoints da API usando HTTPS / Total de endpoints testados) × 100`.
 * **Critério (Valor-alvo):** 100% das comunicações com HTTPS.
 
 #### **8.2. M2.1 — Documentação de Vulnerabilidades**
@@ -188,13 +188,13 @@ Baseado no GQM da Fase 2.
 #### **8.5. M4.1 — Alertas de Integridade** (é necessário revisao por conta da falta de dados relacionados a criptografia)
 * **Objetivo:** Garantir identificação de modificações não autorizadas (para Q4/H4.x).
 * **Passos de Execução:**
-    1.  Interceptar uma requisição válida (ex: Reporte de Sintoma) usando o Burp Suite.
+    1.  Interceptar uma requisição válida (ex: Reporte de Sintoma) usando o teste mockado.
     2.  Modificar os dados da requisição (ex: alterar o ID do usuário, o sintoma ou o timestamp).
     3.  Enviar a requisição modificada para a API.
     4.  Verificar se a API rejeita a requisição (erro 4xx) ou se ela é aceita (falha de integridade).
 * **Evidência:** Logs do Burp Suite (requisição original, modificada e resposta da API).
-* **Cálculo:** (Fórmula `???`) Será: Descritivo (Sim/Não) se o mecanismo de verificação (hash/checksum) existe e funciona.
-* **Critério (Valor-alvo):** (Valor `???`) Será: Rejeição de 100% das modificações não autorizadas.
+* **Cálculo:** (Fórmula) Será: a relação de casos na tentativa de modificação / casos que foram efetivamente rejeitados
+* **Critério (Valor-alvo):** (Valor) Será: Rejeição de 100% das modificações não autorizadas.
 
 #### **8.6. M5.1 — Rastreabilidade de Operações**
 * **Objetivo:** Assegurar rastreabilidade de operações críticas (para Q5/H5.x).

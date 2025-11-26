@@ -48,7 +48,7 @@ Os testes foram realizados conforme as especificações abaixo, garantindo a rep
 * **Resultado:** (22 / 22) × 100 **100% dos 22 endpoints utilizam HTTPS** 
 * **Critério (Alvo):** 100%
 * **Status:** **Atingido**
-* **Link da Gravação do teste:** ****
+* **Link da Gravação do teste:** [Link Aqui](https://www.youtube.com/watch?v=37ZUvAXiJt8)
 
 
 ---
@@ -135,7 +135,7 @@ Sem as medições individuais, **não é possível calcular a média** do tempo 
 * **Resultado:** (8 / 8) × 100 = **100%**
 * **Critério (Alvo):** Rejeição de 100% das modificações não autorizadas.
 * **Status:** **Atingido**
-* **Link da Gravação do teste:** ****
+* **Link da Gravação do teste:** [Link Aqui](https://www.youtube.com/watch?v=GT-2iTJAI0s&feature=youtu.be)
 
 ---
 
