@@ -15,11 +15,11 @@ Esta fase detalha a execução do plano de avaliação do **Guardiões da Saúde
 
 | Característica | Hipótese (H) | Justificativa Chave |
 | :--- | :--- | :--- |
-| **Confidencialidade** | **H1.1:** O sistema utiliza criptografia para comunicações entre cliente e servidor (HTTPS/TLS). | **Atingida.** Análise via Burp Suite confirmou 100% de tráfego HTTPS seguro. |
+| **Confidencialidade** | **H1.1:** O sistema utiliza criptografia para comunicações entre cliente e servidor (HTTPS/TLS). | **Atingida.** Todos os 22 endpoints testados operam exclusivamente sobre HTTPS com protocolo TLS 1.3 e certificados válidos. Não foram identificadas comunicações em texto claro ou downgrade de protocolo. O critério-alvo (100%) foi plenamente atendido, garantindo proteção contra interceptação, espionagem de tráfego e ataques man-in-the-middle.  |
 | **Confidencialidade** | **H2.1 / H2.3:** O código é revisado e utiliza ferramentas automatizadas (SAST) para identificar vulnerabilidades. | *[Preencher com relatório do Snyk. Quantas vulnerabilidades críticas foram achadas?]* |
 | **Confidencialidade** | **H3.1:** Nenhum dado pessoal é armazenado em texto claro localmente. | *[Preencher com análise do `adb shell`. O token ou senha estava visível no SharedPreferences?]* |
 | **Confidencialidade** | **H3.2:** O tempo de descriptografia de dados locais não impacta a usabilidade. | *[Preencher com dados do Profiler. A média foi ≤ 1s?]* |
-| **Integridade** | **H4.1:** Mecanismos de validação detectam alterações não autorizadas nos dados em trânsito. | **Atingida.** A API rejeitou tentativas de manipulação de ID e payload nos testes de interceptação. |
+| **Integridade** | **H4.1:** Mecanismos de validação detectam alterações não autorizadas nos dados em trânsito. | **Atingida.** A API rejeitou 100% das tentativas de manipulação realizadas nos 8 cenários testados — incluindo alteração de IDs, timestamps, flags administrativas, campos sensíveis e tentativas de escalonamento de privilégio. Em todos os casos, o backend respondeu com códigos HTTP adequados (403, 401, 422), demonstrando validação server-side robusta e prevenção efetiva contra ataques de adulteração de payload e violação de integridade. |
 | **Integridade** | **H5.1:** Operações críticas são registradas em logs de auditoria para garantir rastreabilidade. | *[Preencher com análise de logs. O login e reporte geraram logs completos?]* |
 
 ## Níveis de pontuação
