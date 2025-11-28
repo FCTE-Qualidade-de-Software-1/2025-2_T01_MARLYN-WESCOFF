@@ -26,20 +26,20 @@ Esta fase detalha a execução do plano de avaliação do **Guardiões da Saúde
 
 Os níveis abaixo foram preenchidos conforme a classificação obtida após o cálculo das fórmulas definidas na Fase 2 e a execução dos testes.
 
-| **MÉTRICA** | **RESULTADO** |
-| ----------- | ------------- |
-| **ADEQUAÇÃO FUNCIONAL** | |
-| M1.1 (Cadastro) | *[Ex: Excelente]* |
-| M1.2 (Recuperação Senha) | *[Ex: Regular]* |
-| M2.1 (Operações Principais) | **Bom** (83,33% de sucesso - Falha pontual no Mapa) |
-| M2.2 (Perda de Dados) | *[Ex: Excelente]* |
-| **SEGURANÇA** | |
-| M1.1 (HTTPS) | **Excelente** (100% de sucesso) |
-| M2.1 (Vulnerabilidades) | *[Ex: Regular]* |
-| M3.1 (Armazenamento Local) | *[Ex: Insuficiente]* |
-| M3.2 (Tempo Descriptografia) | *[Ex: Bom]* |
-| M4.1 (Integridade) | **Excelente** (100% de sucesso) |
-| M5.1 (Rastreabilidade) | *[Ex: Regular]* |
+| **MÉTRICA** | **RESULTADO** | **CLASSIFICAÇÃO** |
+| ----------- | ------------- | ----------------- |
+| **ADEQUAÇÃO FUNCIONAL** | | |
+| M1.1 (Cadastro) | **90%** | **Excelente** |
+| M1.2 (Recuperação Senha) | **1,33 min** | **Excelente** |
+| M2.1 (Operações Principais) | **87,5%** | **Bom** |
+| M2.2 (Perda de Dados) | *[Pendente]* | *-* |
+| **SEGURANÇA** | | |
+| M1.1 (HTTPS) | **100%** | **Excelente** |
+| M2.1 (Vulnerabilidades) | *[Pendente]* | *-* |
+| M3.1 (Armazenamento Local) | *[Pendente]* | *-* |
+| M3.2 (Tempo Descriptografia) | *[Pendente]* | *-* |
+| M4.1 (Integridade) | **100% (Rejeição)** | **Excelente** |
+| M5.1 (Rastreabilidade) | *[Pendente]* | *-* |
 
 ## Critérios de julgamento
 
@@ -51,7 +51,8 @@ Os critérios globais seguem as definições estabelecidas no documento de pontu
 - **Parcialmente Aceitável**: <= 35% das métricas em nível *Insuficiente*. O sistema atende em parte, mas com falhas perceptíveis.
 - **Inaceitável**: > 35% das métricas em nível *Insuficiente*. As falhas comprometem a funcionalidade esperada.
 
-> Resultado: **Aceitável.** (Considerando preliminarmente que a métrica M2.1 foi classificada como "Bom" e as demais métricas tendem a resultados positivos, o sistema cumpre seu propósito, ressalvada a correção necessária no módulo de Mapa).
+> Resultado: **Aceitável.**
+> Com 100% das métricas avaliadas até agora (M1.1, M1.2 e M2.1) atingindo os níveis "Bom" ou "Excelente", a característica já satisfaz o critério de aceitação, indicando que as funcionalidades atendem aos requisitos com qualidade adequada.
 
 ### Segurança
 
@@ -63,8 +64,7 @@ Os critérios globais seguem as definições estabelecidas no documento de pontu
 
 ## Declaração do uso de Inteligência Artificial
 
-<p style="text-indent:30px; text-align: justify">Durante o desenvolvimento deste relatório, foi utilizada a ferramenta de Inteligência Artificial (Gemini) para a estruturação das tabelas de resultados, consolidação das hipóteses e preenchimento inicial com base nos dados de teste fornecidos. Todas as informações, referências e interpretações técnicas foram validadas e ajustadas manualmente pela equipe após a execução dos testes, garantindo a precisão e a coerência com o contexto real do projeto Guardiões da Saúde.</p>
-
+Durante o desenvolvimento deste relatório, foi utilizada a ferramenta de Inteligência Artificial (Gemini) para a estruturação das tabelas de resultados, consolidação das hipóteses e preenchimento inicial com base nos dados de teste fornecidos. Todas as informações, referências e interpretações técnicas foram validadas e ajustadas manualmente pela equipe após a execução dos testes, garantindo a precisão e a coerência com o contexto real do projeto Guardiões da Saúde.
 ## Referências
 
 > 1. Equipe Marlyn Wescoff. **Critério 2 — Execução da Avaliação: Adequação Funcional**. Fase 2 do Projeto de Qualidade de Software. Disponível no repositório do projeto.

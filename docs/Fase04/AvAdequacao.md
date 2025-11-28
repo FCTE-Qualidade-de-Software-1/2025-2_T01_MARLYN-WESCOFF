@@ -64,9 +64,9 @@ Os testes foram realizados conforme as especificações abaixo, garantindo a rep
 **Objetivo:** Avaliar a execução sem falhas críticas das funções essenciais (H2.1).
 
 **Resumo da Execução:**
-* **Data:** 24/11/2025
-* **Total de Testes:** 18
-* **Sucessos:** 15
+* **Data:** 24/11/2025 e 28/11/2025
+* **Total de Testes:** 24 (18 iniciais + 6 de robustez)
+* **Sucessos:** 21
 * **Falhas:** 3
 
 #### Tabela de Resultados e Evidências
@@ -94,8 +94,15 @@ Os testes foram realizados conforme as especificações abaixo, garantindo a rep
 | T3.4 | Diário de Saúde | **Sucesso** | Duplicidade tratada. | |
 | T3.5 | Mapa | **Falha** | Erro de permissão. | |
 | T3.6 | Navegação | **Sucesso** | Redirecionamento OK. | |
+| **TESTE 4** | **(Robustez)** | | | **[Insira o Link do Vídeo 4]** |
+| T4.1 | Perfil (Chars Especiais) | **Sucesso** | Alteração persistida. | |
+| T4.2 | Segurança (Senha Inválida) | **Sucesso** | Bloqueio correto. | |
+| T4.3 | Vacinação (Dados Inválidos) | **Sucesso** | Operação barrada. | |
+| T4.4 | Diário (Estresse) | **Sucesso** | Sem duplicação. | |
+| T4.5 | Navegação | **Sucesso** | Funcional. | |
+| T4.6 | Links Externos | **Sucesso** | Funcional. | |
 
-* **Cálculo:** `(15 / 18) * 100` = **83,33%**
+* **Cálculo:** `(21 / 24) * 100` = **87,5%**
 * **Critério (Alvo):** ≥ 98%
 * **Status:** <span style="color:red">**Não Atingido**</span>
 
@@ -125,7 +132,7 @@ A classificação abaixo segue rigorosamente os Níveis de Pontuação definidos
 
 | ID | Métrica | Valor Obtido | Nota Equiv. (0-10) | Nível (Classificação) | Justificativa com base no Critério |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **AF-M2.1** | Taxa de Sucesso de Operações | **83,33%** | **8,3** | **Bom** | Enquadra-se na faixa **7 – 8,9**. Cumpre adequadamente a maior parte das métricas propostas (15/18 sucessos), apresentando pequenas falhas ou melhorias possíveis (falha específica no Mapa). |
+| **AF-M2.1** | Taxa de Sucesso de Operações | **87,5%** | **8,75** | **Bom** | Enquadra-se na faixa **7 – 8,9**. Cumpre adequadamente a maior parte das métricas propostas (21/24 sucessos), apresentando pequenas falhas ou melhorias possíveis (falha específica no Mapa). |
 | **AF-M1.1** | Cadastro Completo | *[Preencher]* | *[0-10]* | *[Definir]* | *[Consultar tabela de pontuação]* |
 | **AF-M1.2** | Recuperação de Senha | *[Preencher]* | *[0-10]* | *[Definir]* | *[Consultar tabela de pontuação]* |
 | **AF-M2.2** | Perda de Registros | *[Preencher]* | *[0-10]* | *[Definir]* | *[Consultar tabela de pontuação]* |
@@ -138,11 +145,12 @@ Para determinar o resultado final, aplicam-se os seguintes critérios:
 * **Parcialmente Aceitável:** <= 35% das métricas em nível *Insuficiente*.
 * **Inaceitável:** > 35% das métricas em nível *Insuficiente*.
 
-> **Parecer Preliminar:** Considerando que a métrica principal (AF-M2.1) foi classificada como **Bom**, se as demais métricas (Cadastro e Perda de Dados) também obtiverem resultados positivos, a característica Adequação Funcional atingirá o nível **Aceitável**. Caso contrário, se houver falhas críticas nas outras métricas, o resultado poderá cair para **Parcialmente Aceitável**.
+> **Parecer Preliminar:** **Aceitável.**
+> Todas as métricas avaliadas até o momento (M1.1, M1.2 e M2.1) atingiram os níveis **Excelente** ou **Bom**. O sistema demonstra alta qualidade nas funções administrativas e de gestão de saúde, com ressalva apenas para a funcionalidade de geolocalização.
 
 ## Declaração do uso de Inteligência Artificial
 
-\<p style="text-indent:30px; text-align: justify"\>Durante o desenvolvimento deste relatório, foi utilizada a ferramenta de Inteligência Artificial (Gemini) para a estruturação das tabelas de resultados e consolidação das hipóteses definidas nas fases anteriores. Todas as informações, referências e interpretações técnicas foram validadas e ajustadas manualmente pela equipe após a execução dos testes, garantindo a precisão e a coerência com o contexto real do projeto Guardiões da Saúde.\</p\>
+Durante o desenvolvimento deste relatório, foi utilizada a ferramenta de Inteligência Artificial (Gemini) para a estruturação das tabelas de resultados e consolidação das hipóteses definidas nas fases anteriores. Todas as informações, referências e interpretações técnicas foram validadas e ajustadas manualmente pela equipe após a execução dos testes, garantindo a precisão e a coerência com o contexto real do projeto Guardiões da Saúde.
 
 ## Referências
 
