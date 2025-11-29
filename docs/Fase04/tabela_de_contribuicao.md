@@ -9,7 +9,7 @@ A tabela abaixo apresenta os membros da equipe e suas contribuições para o pro
 | Nome                          | Matrícula | Descrição das Contribuições                              | Contribuição (%) |
 |-------------------------------|-----------|----------------------------------------------------------|------------------|
 | Marcella Anderle              | 221035040 |             |  |
-| Vinícius Fernandes Rufino     | 200062891 |             |  |
+| Vinícius Fernandes Rufino     | 200062891 |   Desenvolvimento dos testes de Segurança. Execução dos testes relacionados a métrica M2.2          | 16,66% |
 | Yan Werlley                   | 211030649 |    Desenvolvimento dos testes de Segurança. Execução dos testes relacionados a metrica M2.1           | 16.66% |
 | Oscar de Brito                | 211031790 |    Desenvolvimento dos testes de Segurança. Execução dos testes relacionados a metrica M1.1 e M4.1           | 16.66% |
 | João Pedro Costa              | 190030801 | Desenvolvimento dos testes de adequação funcional. Execução dos testes relacionados a metrica M2.1 (H2.1)           | 16,66% |
