@@ -163,7 +163,7 @@ A classificação abaixo segue rigorosamente os Níveis de Pontuação definidos
 | ID | Métrica | Valor Obtido | Nota Equiv. (0-10) | Nível (Classificação) | Justificativa |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **SEG-M1.1** | HTTPS | *[Preencher]* | *[Nota]* | *[Definir]* | *[Justificativa]* |
-| **SEG-M2.1** | Vulnerabilidades | *[Preencher]* | *[Nota]* | *[Definir]* | *[Justificativa]* |
+| **SEG-M2.1** | Vulnerabilidades | 67 Críticas | 0 | Insuficiente | O sistema reprovou na análise SAST com 67 vulnerabilidades críticas (64 API / 3 App), falhando no critério de 0 vulnerabilidades. |
 | **SEG-M3.1** | Armaz. Local | *[Preencher]* | *[Nota]* | *[Definir]* | *[Justificativa]* |
 | **SEG-M3.2** | Descriptografia | *[Preencher]* | *[Nota]* | *[Definir]* | *[Justificativa]* |
 | **SEG-M4.1** | Integridade | *[Preencher]* | *[Nota]* | *[Definir]* | *[Justificativa]* |
