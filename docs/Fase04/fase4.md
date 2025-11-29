@@ -32,7 +32,7 @@ Os níveis abaixo foram preenchidos conforme a classificação obtida após o c�
 | M1.1 (Cadastro) | **90%** | **Excelente** |
 | M1.2 (Recuperação Senha) | **1,33 min** | **Excelente** |
 | M2.1 (Operações Principais) | **100%*** | **Excelente** |
-| M2.2 (Perda de Dados) | *[Pendente]* | *-* |
+| M2.2 (Perda de Dados) | **100% de perda** | **Insuficiente** |
 | **SEGURANÇA** | | |
 | M1.1 (HTTPS) | **100%** | **Excelente** |
 | M2.1 (Vulnerabilidades) | **67 Vulnerabilidades Crítica** | **Insuficiente** |
@@ -83,3 +83,4 @@ Durante o desenvolvimento deste relatório, foi utilizada a ferramenta de Inteli
 | 1.0 | 24/11/2025 | Criação do Documento inicial e artefato da tabela de contribuição | [João Pedro Costa](https://github.com/johnaopedro) | — |
 | 1.1 | 24/11/2025 | Atualização dos testes de M1.1 E M4.1 | [Oscar de Brito](https://github.com/OscardeBrito) | — |
 | 1.2 | 28/11/2025 | Atualização de M2.1 com exclusão de testes de Mapa | [João Pedro Costa](https://github.com/johnaopedro) | — |
+| 1.3 | 28/11/2025 | Atualização de M2.2| [Vinícius Rufino](https://github.com/RufinoVfR) | — |

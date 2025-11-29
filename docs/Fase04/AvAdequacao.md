@@ -120,15 +120,30 @@ As funcionalidades dependentes de Mapa/GPS (T1.2, T2.2, T3.5) foram excluídas d
 ---
 
 ### 4.2. Métrica AF-M2.2: Taxa de Perda de Registros de Saúde
-**Objetivo:** Verificar se dados enviados pelo app são gravados no banco sem perdas (H2.2).
 
-| Qtd. Envios (App) | Qtd. Registros (Banco de Dados) | Diferença | Link da Evidência (Logs/Query) |
-| :---: | :---: | :---: | :--- |
-| 50 | *[Preencher]* | *[Preencher]* | [Link Aqui] |
+- **Objetivo:** Avaliar a corretude do processamento de dados (para H2.2).
 
-* **Cálculo:** `(Perdidos / Enviados) * 100` = **[X]%**
-* **Critério (Alvo):** 0%
-* **Status:** *[Atingido / Não Atingido]*
+- **Passos de Execução:**
+  a. Enviar 50 reportes de sintomas distintos (massa de teste) usando o App.  
+  b. Acessar o backend (API e banco de dados).  
+  c. Verificar o total de registros recebidos pela API (via log da API).  
+  d. Verificar o total de registros gravados no banco de dados (via query SQL).  
+  e. Calcular a diferença (registros perdidos).
+
+- **Evidência:** Logs da API (`POST /users/1/surveys`), resultado da query SQL via console Rails (`Survey.where(user_id: 1).count`).
+
+- **Resultado:**
+  - Total de requisições enviadas pelo App: **50**  
+  - Total de registros persistidos no banco: **0**  
+  - Diferença: **50 registros perdidos**
+
+- **Cálculo:**  
+  `(Nº de registros perdidos / Nº total de registros enviados) × 100`  
+  `(50 / 50) × 100 = 100%`
+
+- **Critério (Valor-alvo):** 0%
+
+- **Status:**  **Não Atingido**
 
 ---
 
@@ -143,7 +158,8 @@ A classificação abaixo segue rigorosamente os Níveis de Pontuação definidos
 | **AF-M2.1** | Taxa de Sucesso de Operações | **100%** | **10,0** | **Excelente** | Enquadra-se na faixa **9 – 10**. Todas as operações válidas testadas (26/26) foram executadas com sucesso. A robustez do sistema foi comprovada em testes de limites e entradas inválidas. |
 | **AF-M1.1** | Cadastro Completo | **90%** | **9,0** | **Excelente** | Enquadra-se na faixa **9 – 10**. Atende completamente aos objetivos, apesar de uma falha isolada. |
 | **AF-M1.2** | Recuperação de Senha | **1,33 min** | **10,0** | **Excelente** | Performance muito superior ao alvo. |
-| **AF-M2.2** | Perda de Registros | *[Preencher]* | *[0-10]* | *[Definir]* | *[Consultar tabela de pontuação]* |
+| **AF-M2.2** | Perda de Registros | 100% | 0 | Não atingido | Conforme tabela, 100% de perda resulta em nota 0 |
+
 
 ### 5.2. Julgamento da Característica: Adequação Funcional
 
