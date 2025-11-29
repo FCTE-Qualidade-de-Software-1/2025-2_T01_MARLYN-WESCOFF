@@ -51,7 +51,7 @@
         3. Confirmar suporte a protocolos seguros (TLS 1.2+).  
         4. Identificar versões de cifra utilizadas (cipher suites).  
     - **Responsável:** Equipe de Desenvolvimento / Segurança da Informação.
-**Responsável:** Equipe de Desenvolvimento / Segurança da Informação.
+**Responsável:** Equipe de Desenvolvimento 
 
 ---
 
@@ -128,7 +128,7 @@
         1. Verificar mecanismos de verificação de integridade (validações server-side, regras de domínio, autenticação e autorização).  
         2. Executar cenários de ataque simulados (alteração de IDs, timestamps, flags administrativas, escalonamento de privilégio, etc.).  
         3. Registrar e documentar o comportamento da API (HTTP 401/403/422).  
-    - **Responsável:** Equipe de Desenvolvimento / Segurança da Informação.
+    - **Responsável:** Equipe de Desenvolvimento 
 
 ---
 
