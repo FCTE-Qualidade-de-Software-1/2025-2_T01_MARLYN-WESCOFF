@@ -40,15 +40,18 @@
 
 ### M1.1 — Utilização de HTTPS
 !!! info "Detalhes da Métrica"
-    - **Objetivo:** Verificar se todas as comunicações utilizam HTTPS/TLS
-    - **Fórmula:** ???
-    - **Periodicidade:** ???
-    - **Valor-alvo:** 100% das comunicações com HTTPS
-    - **Coleta:** 
-            - 1. Verificar certificados SSL/TLS válidos
-            - 2. Confirmar protocolos suportados (TLS 1.2 ou superior)
-            - 3. Analisar configuração do servidor
-    - **Responsável:** Equipe de Desenvolvimento
+    - **Objetivo:** Verificar se todas as comunicações utilizam HTTPS/TLS.
+    - **Fórmula:**  
+      **(Endpoints com HTTPS / Endpoints testados) × 100**
+    - **Periodicidade:** Avaliação a cada ciclo de release ou sempre que novos endpoints forem incluídos.
+    - **Valor-alvo:** 100% das comunicações com HTTPS.
+    - **Coleta:**  
+        1. Verificar se todos os endpoints respondem exclusivamente via HTTPS.  
+        2. Validar certificados SSL/TLS (CA confiável, data de validade, cadeia completa).  
+        3. Confirmar suporte a protocolos seguros (TLS 1.2+).  
+        4. Identificar versões de cifra utilizadas (cipher suites).  
+    - **Responsável:** Equipe de Desenvolvimento / Segurança da Informação.
+**Responsável:** Equipe de Desenvolvimento / Segurança da Informação.
 
 ---
 
@@ -116,15 +119,16 @@
 
 ### M4.1 — Alertas de Integridade
 !!! info "Detalhes da Métrica"
-    - **Objetivo:** Garantir identificação de modificações não autorizadas
-    - **Fórmula:** ???
-    - **Periodicidade:** ???
-    - **Valor-alvo:** ???
-    - **Coleta:** 
-            - 1. Verificar mecanismos de verificação de integridade (checksums, hash)
-            - 2. Testar geração de alertas em modificações
-            - 3. Documentar funcionamento
-    - **Responsável:** Equipe de Desenvolvimento
+    - **Objetivo:** Garantir que o sistema identifique e bloqueie modificações não autorizadas nos dados em trânsito.
+    - **Fórmula:**  
+      **(Tentativas de manipulação bloqueadas / Tentativas de manipulação testadas) × 100**
+    - **Periodicidade:** Em cada ciclo de release ou após mudanças em validações, regras de negócio ou endpoints sensíveis.
+    - **Valor-alvo:** 100% das modificações não autorizadas devem ser bloqueadas.
+    - **Coleta:**  
+        1. Verificar mecanismos de verificação de integridade (validações server-side, regras de domínio, autenticação e autorização).  
+        2. Executar cenários de ataque simulados (alteração de IDs, timestamps, flags administrativas, escalonamento de privilégio, etc.).  
+        3. Registrar e documentar o comportamento da API (HTTP 401/403/422).  
+    - **Responsável:** Equipe de Desenvolvimento / Segurança da Informação.
 
 ---
 
@@ -164,6 +168,8 @@
 | 1.3    | 15/10/2025 | Adição de métricas e Correção                          | [Vinícius Rufino](https://github.com/RufinoVfR)                       | —       |
 | 1.4    | 23/10/2025 | Ajustes no tópico 2.3                                  | [Marcella S Anderle](https://github.com/marcellaanderle)              | —       |
 | 1.5   | 24/10/2025 | melhoria na padronização  e diagrama                                | [Fernanda vaz ](https://github.com/Fernandavazgit1)              | —       |
+| 1.6   | 24/10/2025 | Ajuste topicos m1.1 e m4.1                                | [Oscar de Brito ](https://github.com/OscarDeBrito)              | —       |
+
 
 
 <!--

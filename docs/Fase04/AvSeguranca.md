@@ -162,11 +162,11 @@ A classificação abaixo segue rigorosamente os Níveis de Pontuação definidos
 
 | ID | Métrica | Valor Obtido | Nota Equiv. (0-10) | Nível (Classificação) | Justificativa |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **SEG-M1.1** | HTTPS | *[Preencher]* | *[Nota]* | *[Definir]* | *[Justificativa]* |
+| **SEG-M1.1** | HTTPS | 100% | 10 | Adequado | Todos os 22 endpoints utilizam HTTPS com TLS 1.3 e certificados válidos, atendendo integralmente o valor-alvo de 100%. |
 | **SEG-M2.1** | Vulnerabilidades | 67 Críticas | 0 | Insuficiente | O sistema reprovou na análise SAST com 67 vulnerabilidades críticas (64 API / 3 App), falhando no critério de 0 vulnerabilidades. |
 | **SEG-M3.1** | Armaz. Local | *[Preencher]* | *[Nota]* | *[Definir]* | *[Justificativa]* |
 | **SEG-M3.2** | Descriptografia | *[Preencher]* | *[Nota]* | *[Definir]* | *[Justificativa]* |
-| **SEG-M4.1** | Integridade | *[Preencher]* | *[Nota]* | *[Definir]* | *[Justificativa]* |
+| **SEG-M4.1** | Integridade | 100% | 10 | Adequado | A API bloqueou 100% (8/8) das tentativas de manipulação, incluindo alteração de IDs, timestamps e escalonamento de privilégio, atendendo integralmente o valor-alvo. |
 | **SEG-M5.1** | Rastreabilidade | *[Preencher]* | *[Nota]* | *[Definir]* | *[Justificativa]* |
 
 ### 5.2. Julgamento da Característica: Segurança
@@ -199,3 +199,4 @@ Para determinar o resultado final, aplicam-se os seguintes critérios:
 |:------:|:----------|:----------------------------------|:-------------------------------------|:-------:|
 | 1.0    | 24/11/2025 | Criação do Documento inicial e elaboração do documento | [João Pedro Costa](https://github.com/johnaopedro) |   —    |
 | 1.1    | 26/11/2025 | Adiciona metrica M2.1 | [Yan Werlley](https://github.com/YanWerlley) |   —    |
+| 1.2  | 24/10/2025 | Adicição de metrica m1.1 e m4.1                                | [Oscar de Brito ](https://github.com/OscarDeBrito)              | —       |
